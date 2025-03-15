@@ -1,0 +1,48 @@
+{
+  "criteria": [
+    {
+      "name": "Identification and Order of Steps",
+      "description": "Clearly lists all four major steps (segmentation, targeting, differentiation, positioning) in correct order.",
+      "weight": 30,
+      "scoringLevels": {
+        "full": "Lists all four steps in the correct order.",
+        "partial": "Lists three steps or has them out of order.",
+        "minimal": "Lists fewer than three steps or omits key terminology."
+      },
+      "subCriteria": []
+    },
+    {
+      "name": "Explanation of Steps",
+      "description": "Provides accurate, concise explanations of each step, aligned with textbook definitions.",
+      "weight": 30,
+      "scoringLevels": {
+        "full": "Explanations are accurate, clear, and concise.",
+        "partial": "Explanations are mostly accurate but lack detail or depth.",
+        "minimal": "Explanations are vague or contain inaccuracies."
+      },
+      "subCriteria": []
+    },
+    {
+      "name": "Understanding the Goals of the Steps",
+      "description": "Clearly explains what the company seeks to achieve in the first two steps (selecting customers) versus the last two (creating value proposition).",
+      "weight": 30,
+      "scoringLevels": {
+        "full": "Explanation is clear and aligns with course concepts.",
+        "partial": "Explanation is somewhat clear but lacks connection to course material.",
+        "minimal": "Explanation is unclear or missing."
+      },
+      "subCriteria": []
+    },
+    {
+      "name": "Clarity and Organization",
+      "description": "Response is well-structured, logical, and free from errors in grammar or spelling.",
+      "weight": 10,
+      "scoringLevels": {
+        "full": "Response is clear, well-organized, and error-free.",
+        "partial": "Response has minor organization or grammar issues.",
+        "minimal": "Response is poorly organized or difficult to follow."
+      },
+      "subCriteria": []
+    }
+  ]
+}

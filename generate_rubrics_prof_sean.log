@@ -1,0 +1,827 @@
+2025-03-11 02:37:43,336 - INFO - Retrieving context for question: List and briefly explain the four major steps in d...
+2025-03-11 02:37:43,336 - ERROR - Project root not provided
+2025-03-11 02:37:43,336 - ERROR - Error generating sample rubrics: Project root not provided
+2025-03-11 02:41:52,319 - INFO - Retrieving context for question: List and briefly explain the four major steps in d...
+2025-03-11 02:41:52,320 - INFO - Using provided project root: /Users/hetpatel/Projects/course-grading-api
+2025-03-11 02:41:52,320 - INFO - Professor base directory: /Users/hetpatel/Projects/course-grading-api/uploads/prof_sean
+2025-03-11 02:41:52,320 - INFO - Attempting to retrieve text from indices at: /Users/hetpatel/Projects/course-grading-api/uploads/prof_sean/indices/faiss_index.pkl
+2025-03-11 02:41:52,320 - INFO - Loading FAISS indices from /Users/hetpatel/Projects/course-grading-api/uploads/prof_sean/indices/faiss_index.pkl
+2025-03-11 02:41:55,559 - INFO - Loading faiss.
+2025-03-11 02:41:55,588 - INFO - Successfully loaded faiss.
+2025-03-11 02:41:55,591 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+2025-03-11 02:41:55,595 - INFO - Loaded 5 FAISS indices successfully
+2025-03-11 02:41:55,920 - INFO - Using provided project root: /Users/hetpatel/Projects/course-grading-api
+2025-03-11 02:41:55,920 - INFO - Professor base directory: /Users/hetpatel/Projects/course-grading-api/uploads/prof_sean
+2025-03-11 02:41:55,920 - INFO - Attempting to retrieve text from indices at: /Users/hetpatel/Projects/course-grading-api/uploads/prof_sean/indices/faiss_index.pkl
+2025-03-11 02:41:55,920 - INFO - Loading FAISS indices from /Users/hetpatel/Projects/course-grading-api/uploads/prof_sean/indices/faiss_index.pkl
+2025-03-11 02:41:56,159 - INFO - Loaded 5 FAISS indices successfully
+2025-03-11 02:41:56,171 - INFO - Using provided project root: /Users/hetpatel/Projects/course-grading-api
+2025-03-11 02:41:56,171 - INFO - Professor base directory: /Users/hetpatel/Projects/course-grading-api/uploads/prof_sean
+2025-03-11 02:41:56,171 - INFO - Attempting to retrieve text from indices at: /Users/hetpatel/Projects/course-grading-api/uploads/prof_sean/indices/faiss_index.pkl
+2025-03-11 02:41:56,171 - INFO - Loading FAISS indices from /Users/hetpatel/Projects/course-grading-api/uploads/prof_sean/indices/faiss_index.pkl
+2025-03-11 02:41:56,279 - INFO - Loaded 5 FAISS indices successfully
+2025-03-11 02:41:56,290 - INFO - Using provided project root: /Users/hetpatel/Projects/course-grading-api
+2025-03-11 02:41:56,290 - INFO - Professor base directory: /Users/hetpatel/Projects/course-grading-api/uploads/prof_sean
+2025-03-11 02:41:56,290 - INFO - Attempting to retrieve text from indices at: /Users/hetpatel/Projects/course-grading-api/uploads/prof_sean/indices/faiss_index.pkl
+2025-03-11 02:41:56,290 - INFO - Loading FAISS indices from /Users/hetpatel/Projects/course-grading-api/uploads/prof_sean/indices/faiss_index.pkl
+2025-03-11 02:41:56,397 - INFO - Loaded 5 FAISS indices successfully
+2025-03-11 02:41:56,408 - INFO - Using provided project root: /Users/hetpatel/Projects/course-grading-api
+2025-03-11 02:41:56,408 - INFO - Professor base directory: /Users/hetpatel/Projects/course-grading-api/uploads/prof_sean
+2025-03-11 02:41:56,408 - INFO - Attempting to retrieve text from indices at: /Users/hetpatel/Projects/course-grading-api/uploads/prof_sean/indices/faiss_index.pkl
+2025-03-11 02:41:56,408 - INFO - Loading FAISS indices from /Users/hetpatel/Projects/course-grading-api/uploads/prof_sean/indices/faiss_index.pkl
+2025-03-11 02:41:56,520 - INFO - Loaded 5 FAISS indices successfully
+2025-03-11 02:41:56,531 - INFO - Retrieved 0 unique context chunks
+2025-03-11 02:41:56,531 - INFO - Generating 3 sample rubrics...
+2025-03-11 02:41:56,532 - INFO - Generating sample rubric 1 of 3
+2025-03-11 02:41:56,532 - INFO - Sending request to local model: llama3.3:70b
+2025-03-11 02:42:51,463 - INFO - Successfully generated sample rubric 1
+2025-03-11 02:42:51,465 - INFO - Generating sample rubric 2 of 3
+2025-03-11 02:42:51,466 - INFO - Sending request to local model: llama3.3:70b
+2025-03-11 02:43:34,896 - INFO - Successfully generated sample rubric 2
+2025-03-11 02:43:34,898 - INFO - Generating sample rubric 3 of 3
+2025-03-11 02:43:34,898 - INFO - Sending request to local model: llama3.3:70b
+2025-03-11 02:44:19,923 - INFO - Successfully generated sample rubric 3
+2025-03-11 02:44:19,925 - INFO - Saved sample rubrics to /Users/hetpatel/Projects/course-grading-api/uploads/prof_sean/rubrics/sample_rubrics.json
+2025-03-11 02:44:48,199 - INFO - Retrieving context for question: List and briefly explain the four major steps in d...
+2025-03-11 02:44:48,200 - INFO - Using provided project root: /Users/hetpatel/Projects/course-grading-api
+2025-03-11 02:44:48,200 - INFO - Professor base directory: /Users/hetpatel/Projects/course-grading-api/uploads/prof_sean
+2025-03-11 02:44:48,200 - INFO - Attempting to retrieve text from indices at: /Users/hetpatel/Projects/course-grading-api/uploads/prof_sean/indices/faiss_index.pkl
+2025-03-11 02:44:48,200 - INFO - Loading FAISS indices from /Users/hetpatel/Projects/course-grading-api/uploads/prof_sean/indices/faiss_index.pkl
+2025-03-11 02:44:50,905 - INFO - Loading faiss.
+2025-03-11 02:44:50,942 - INFO - Successfully loaded faiss.
+2025-03-11 02:44:50,946 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+2025-03-11 02:44:50,952 - INFO - Loaded 5 FAISS indices successfully
+2025-03-11 02:44:51,146 - INFO - Using provided project root: /Users/hetpatel/Projects/course-grading-api
+2025-03-11 02:44:51,146 - INFO - Professor base directory: /Users/hetpatel/Projects/course-grading-api/uploads/prof_sean
+2025-03-11 02:44:51,146 - INFO - Attempting to retrieve text from indices at: /Users/hetpatel/Projects/course-grading-api/uploads/prof_sean/indices/faiss_index.pkl
+2025-03-11 02:44:51,146 - INFO - Loading FAISS indices from /Users/hetpatel/Projects/course-grading-api/uploads/prof_sean/indices/faiss_index.pkl
+2025-03-11 02:44:51,392 - INFO - Loaded 5 FAISS indices successfully
+2025-03-11 02:44:51,405 - INFO - Using provided project root: /Users/hetpatel/Projects/course-grading-api
+2025-03-11 02:44:51,405 - INFO - Professor base directory: /Users/hetpatel/Projects/course-grading-api/uploads/prof_sean
+2025-03-11 02:44:51,405 - INFO - Attempting to retrieve text from indices at: /Users/hetpatel/Projects/course-grading-api/uploads/prof_sean/indices/faiss_index.pkl
+2025-03-11 02:44:51,405 - INFO - Loading FAISS indices from /Users/hetpatel/Projects/course-grading-api/uploads/prof_sean/indices/faiss_index.pkl
+2025-03-11 02:44:51,511 - INFO - Loaded 5 FAISS indices successfully
+2025-03-11 02:44:51,523 - INFO - Using provided project root: /Users/hetpatel/Projects/course-grading-api
+2025-03-11 02:44:51,523 - INFO - Professor base directory: /Users/hetpatel/Projects/course-grading-api/uploads/prof_sean
+2025-03-11 02:44:51,523 - INFO - Attempting to retrieve text from indices at: /Users/hetpatel/Projects/course-grading-api/uploads/prof_sean/indices/faiss_index.pkl
+2025-03-11 02:44:51,523 - INFO - Loading FAISS indices from /Users/hetpatel/Projects/course-grading-api/uploads/prof_sean/indices/faiss_index.pkl
+2025-03-11 02:44:51,639 - INFO - Loaded 5 FAISS indices successfully
+2025-03-11 02:44:51,653 - INFO - Using provided project root: /Users/hetpatel/Projects/course-grading-api
+2025-03-11 02:44:51,653 - INFO - Professor base directory: /Users/hetpatel/Projects/course-grading-api/uploads/prof_sean
+2025-03-11 02:44:51,653 - INFO - Attempting to retrieve text from indices at: /Users/hetpatel/Projects/course-grading-api/uploads/prof_sean/indices/faiss_index.pkl
+2025-03-11 02:44:51,653 - INFO - Loading FAISS indices from /Users/hetpatel/Projects/course-grading-api/uploads/prof_sean/indices/faiss_index.pkl
+2025-03-11 02:44:51,761 - INFO - Loaded 5 FAISS indices successfully
+2025-03-11 02:44:51,772 - INFO - Retrieved 0 unique context chunks
+2025-03-11 02:44:51,772 - INFO - Generating 3 sample rubrics...
+2025-03-11 02:44:51,772 - INFO - Generating sample rubric 1 of 3
+2025-03-11 02:44:51,773 - INFO - Sending request to local model: llama3.1:8b
+2025-03-11 02:45:00,408 - INFO - Successfully generated sample rubric 1
+2025-03-11 02:45:00,410 - INFO - Generating sample rubric 2 of 3
+2025-03-11 02:45:00,410 - INFO - Sending request to local model: llama3.1:8b
+2025-03-11 02:45:04,810 - INFO - Successfully generated sample rubric 2
+2025-03-11 02:45:04,811 - INFO - Generating sample rubric 3 of 3
+2025-03-11 02:45:04,811 - INFO - Sending request to local model: llama3.1:8b
+2025-03-11 02:45:09,849 - INFO - Successfully generated sample rubric 3
+2025-03-11 02:45:09,852 - INFO - Saved sample rubrics to /Users/hetpatel/Projects/course-grading-api/uploads/prof_sean/rubrics/sample_rubrics.json
+2025-03-11 02:48:12,934 - INFO - Retrieving context for question: List and briefly explain the four major steps in d...
+2025-03-11 02:48:12,934 - INFO - Using provided project root: /Users/hetpatel/Projects/course-grading-api
+2025-03-11 02:48:12,934 - INFO - Professor base directory: /Users/hetpatel/Projects/course-grading-api/uploads/prof_sean
+2025-03-11 02:48:12,934 - INFO - Attempting to retrieve text from indices at: /Users/hetpatel/Projects/course-grading-api/uploads/prof_sean/indices/faiss_index.pkl
+2025-03-11 02:48:12,934 - INFO - Loading FAISS indices from /Users/hetpatel/Projects/course-grading-api/uploads/prof_sean/indices/faiss_index.pkl
+2025-03-11 02:48:16,358 - INFO - Loading faiss.
+2025-03-11 02:48:16,390 - INFO - Successfully loaded faiss.
+2025-03-11 02:48:16,393 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+2025-03-11 02:48:16,396 - INFO - Loaded 5 FAISS indices successfully
+2025-03-11 02:48:16,939 - INFO - Using provided project root: /Users/hetpatel/Projects/course-grading-api
+2025-03-11 02:48:16,940 - INFO - Professor base directory: /Users/hetpatel/Projects/course-grading-api/uploads/prof_sean
+2025-03-11 02:48:16,940 - INFO - Attempting to retrieve text from indices at: /Users/hetpatel/Projects/course-grading-api/uploads/prof_sean/indices/faiss_index.pkl
+2025-03-11 02:48:16,940 - INFO - Loading FAISS indices from /Users/hetpatel/Projects/course-grading-api/uploads/prof_sean/indices/faiss_index.pkl
+2025-03-11 02:48:17,176 - INFO - Loaded 5 FAISS indices successfully
+2025-03-11 02:48:17,188 - INFO - Using provided project root: /Users/hetpatel/Projects/course-grading-api
+2025-03-11 02:48:17,188 - INFO - Professor base directory: /Users/hetpatel/Projects/course-grading-api/uploads/prof_sean
+2025-03-11 02:48:17,188 - INFO - Attempting to retrieve text from indices at: /Users/hetpatel/Projects/course-grading-api/uploads/prof_sean/indices/faiss_index.pkl
+2025-03-11 02:48:17,188 - INFO - Loading FAISS indices from /Users/hetpatel/Projects/course-grading-api/uploads/prof_sean/indices/faiss_index.pkl
+2025-03-11 02:48:17,296 - INFO - Loaded 5 FAISS indices successfully
+2025-03-11 02:48:17,306 - INFO - Using provided project root: /Users/hetpatel/Projects/course-grading-api
+2025-03-11 02:48:17,306 - INFO - Professor base directory: /Users/hetpatel/Projects/course-grading-api/uploads/prof_sean
+2025-03-11 02:48:17,306 - INFO - Attempting to retrieve text from indices at: /Users/hetpatel/Projects/course-grading-api/uploads/prof_sean/indices/faiss_index.pkl
+2025-03-11 02:48:17,306 - INFO - Loading FAISS indices from /Users/hetpatel/Projects/course-grading-api/uploads/prof_sean/indices/faiss_index.pkl
+2025-03-11 02:48:17,525 - INFO - Loaded 5 FAISS indices successfully
+2025-03-11 02:48:17,567 - INFO - Using provided project root: /Users/hetpatel/Projects/course-grading-api
+2025-03-11 02:48:17,567 - INFO - Professor base directory: /Users/hetpatel/Projects/course-grading-api/uploads/prof_sean
+2025-03-11 02:48:17,567 - INFO - Attempting to retrieve text from indices at: /Users/hetpatel/Projects/course-grading-api/uploads/prof_sean/indices/faiss_index.pkl
+2025-03-11 02:48:17,567 - INFO - Loading FAISS indices from /Users/hetpatel/Projects/course-grading-api/uploads/prof_sean/indices/faiss_index.pkl
+2025-03-11 02:48:17,795 - INFO - Loaded 5 FAISS indices successfully
+2025-03-11 02:48:17,808 - INFO - Retrieved 0 unique context chunks
+2025-03-11 02:48:17,808 - INFO - Generating 3 sample rubrics...
+2025-03-11 02:48:17,808 - INFO - Generating sample rubric 1 of 3
+2025-03-11 02:48:17,808 - INFO - Sending request to local model: llama3.1:8b
+2025-03-11 02:48:22,335 - INFO - Successfully generated sample rubric 1
+2025-03-11 02:48:22,338 - INFO - Generating sample rubric 2 of 3
+2025-03-11 02:48:22,338 - INFO - Sending request to local model: llama3.1:8b
+2025-03-11 02:48:27,147 - INFO - Successfully generated sample rubric 2
+2025-03-11 02:48:27,148 - INFO - Generating sample rubric 3 of 3
+2025-03-11 02:48:27,148 - INFO - Sending request to local model: llama3.1:8b
+2025-03-11 02:48:32,595 - INFO - Successfully generated sample rubric 3
+2025-03-11 02:48:32,598 - INFO - Saved sample rubrics to /Users/hetpatel/Projects/course-grading-api/uploads/prof_sean/rubrics/sample_rubrics.json
+2025-03-11 02:52:22,530 - INFO - Retrieving context for question: List and briefly explain the four major steps in d...
+2025-03-11 02:52:22,531 - INFO - Using provided project root: /Users/hetpatel/Projects/course-grading-api
+2025-03-11 02:52:22,531 - INFO - Professor base directory: /Users/hetpatel/Projects/course-grading-api/uploads/prof_sean
+2025-03-11 02:52:22,531 - INFO - Attempting to retrieve text from indices at: /Users/hetpatel/Projects/course-grading-api/uploads/prof_sean/indices/faiss_index.pkl
+2025-03-11 02:52:22,531 - INFO - Loading FAISS indices from /Users/hetpatel/Projects/course-grading-api/uploads/prof_sean/indices/faiss_index.pkl
+2025-03-11 02:52:25,596 - INFO - Loading faiss.
+2025-03-11 02:52:25,620 - INFO - Successfully loaded faiss.
+2025-03-11 02:52:25,623 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+2025-03-11 02:52:25,627 - INFO - Loaded 5 FAISS indices successfully
+2025-03-11 02:52:25,853 - INFO - Using provided project root: /Users/hetpatel/Projects/course-grading-api
+2025-03-11 02:52:25,853 - INFO - Professor base directory: /Users/hetpatel/Projects/course-grading-api/uploads/prof_sean
+2025-03-11 02:52:25,853 - INFO - Attempting to retrieve text from indices at: /Users/hetpatel/Projects/course-grading-api/uploads/prof_sean/indices/faiss_index.pkl
+2025-03-11 02:52:25,853 - INFO - Loading FAISS indices from /Users/hetpatel/Projects/course-grading-api/uploads/prof_sean/indices/faiss_index.pkl
+2025-03-11 02:52:26,153 - INFO - Loaded 5 FAISS indices successfully
+2025-03-11 02:52:26,164 - INFO - Using provided project root: /Users/hetpatel/Projects/course-grading-api
+2025-03-11 02:52:26,164 - INFO - Professor base directory: /Users/hetpatel/Projects/course-grading-api/uploads/prof_sean
+2025-03-11 02:52:26,164 - INFO - Attempting to retrieve text from indices at: /Users/hetpatel/Projects/course-grading-api/uploads/prof_sean/indices/faiss_index.pkl
+2025-03-11 02:52:26,164 - INFO - Loading FAISS indices from /Users/hetpatel/Projects/course-grading-api/uploads/prof_sean/indices/faiss_index.pkl
+2025-03-11 02:52:26,319 - INFO - Loaded 5 FAISS indices successfully
+2025-03-11 02:52:26,332 - INFO - Using provided project root: /Users/hetpatel/Projects/course-grading-api
+2025-03-11 02:52:26,332 - INFO - Professor base directory: /Users/hetpatel/Projects/course-grading-api/uploads/prof_sean
+2025-03-11 02:52:26,332 - INFO - Attempting to retrieve text from indices at: /Users/hetpatel/Projects/course-grading-api/uploads/prof_sean/indices/faiss_index.pkl
+2025-03-11 02:52:26,332 - INFO - Loading FAISS indices from /Users/hetpatel/Projects/course-grading-api/uploads/prof_sean/indices/faiss_index.pkl
+2025-03-11 02:52:26,448 - INFO - Loaded 5 FAISS indices successfully
+2025-03-11 02:52:26,460 - INFO - Using provided project root: /Users/hetpatel/Projects/course-grading-api
+2025-03-11 02:52:26,460 - INFO - Professor base directory: /Users/hetpatel/Projects/course-grading-api/uploads/prof_sean
+2025-03-11 02:52:26,460 - INFO - Attempting to retrieve text from indices at: /Users/hetpatel/Projects/course-grading-api/uploads/prof_sean/indices/faiss_index.pkl
+2025-03-11 02:52:26,460 - INFO - Loading FAISS indices from /Users/hetpatel/Projects/course-grading-api/uploads/prof_sean/indices/faiss_index.pkl
+2025-03-11 02:52:26,568 - INFO - Loaded 5 FAISS indices successfully
+2025-03-11 02:52:26,579 - INFO - Retrieved 0 unique context chunks
+2025-03-11 02:52:26,580 - INFO - Generating 3 sample rubrics...
+2025-03-11 02:52:26,580 - INFO - Generating sample rubric 1 of 3
+2025-03-11 02:52:26,580 - INFO - Sending request to local model: llama3.1:8b
+2025-03-11 02:52:30,993 - INFO - Successfully generated sample rubric 1
+2025-03-11 02:52:30,993 - INFO - Generating sample rubric 2 of 3
+2025-03-11 02:52:30,993 - INFO - Sending request to local model: llama3.1:8b
+2025-03-11 02:52:35,621 - INFO - Successfully generated sample rubric 2
+2025-03-11 02:52:35,621 - INFO - Generating sample rubric 3 of 3
+2025-03-11 02:52:35,621 - INFO - Sending request to local model: llama3.1:8b
+2025-03-11 02:52:40,738 - INFO - Successfully generated sample rubric 3
+2025-03-11 02:52:40,739 - INFO - Saved sample rubrics to /Users/hetpatel/Projects/course-grading-api/uploads/prof_sean/rubrics/sample_rubrics.json
+2025-03-11 02:53:07,881 - INFO - Retrieving context for question: List and briefly explain the four major steps in d...
+2025-03-11 02:53:07,881 - INFO - Using provided project root: /Users/hetpatel/Projects/course-grading-api
+2025-03-11 02:53:07,881 - INFO - Professor base directory: /Users/hetpatel/Projects/course-grading-api/uploads/prof_sean
+2025-03-11 02:53:07,881 - INFO - Attempting to retrieve text from indices at: /Users/hetpatel/Projects/course-grading-api/uploads/prof_sean/indices/faiss_index.pkl
+2025-03-11 02:53:07,881 - INFO - Loading FAISS indices from /Users/hetpatel/Projects/course-grading-api/uploads/prof_sean/indices/faiss_index.pkl
+2025-03-11 02:53:11,038 - INFO - Loading faiss.
+2025-03-11 02:53:11,065 - INFO - Successfully loaded faiss.
+2025-03-11 02:53:11,068 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+2025-03-11 02:53:11,072 - INFO - Loaded 5 FAISS indices successfully
+2025-03-11 02:53:11,297 - INFO - Using provided project root: /Users/hetpatel/Projects/course-grading-api
+2025-03-11 02:53:11,297 - INFO - Professor base directory: /Users/hetpatel/Projects/course-grading-api/uploads/prof_sean
+2025-03-11 02:53:11,297 - INFO - Attempting to retrieve text from indices at: /Users/hetpatel/Projects/course-grading-api/uploads/prof_sean/indices/faiss_index.pkl
+2025-03-11 02:53:11,297 - INFO - Loading FAISS indices from /Users/hetpatel/Projects/course-grading-api/uploads/prof_sean/indices/faiss_index.pkl
+2025-03-11 02:53:11,560 - INFO - Loaded 5 FAISS indices successfully
+2025-03-11 02:53:11,572 - INFO - Using provided project root: /Users/hetpatel/Projects/course-grading-api
+2025-03-11 02:53:11,573 - INFO - Professor base directory: /Users/hetpatel/Projects/course-grading-api/uploads/prof_sean
+2025-03-11 02:53:11,573 - INFO - Attempting to retrieve text from indices at: /Users/hetpatel/Projects/course-grading-api/uploads/prof_sean/indices/faiss_index.pkl
+2025-03-11 02:53:11,573 - INFO - Loading FAISS indices from /Users/hetpatel/Projects/course-grading-api/uploads/prof_sean/indices/faiss_index.pkl
+2025-03-11 02:53:11,672 - INFO - Loaded 5 FAISS indices successfully
+2025-03-11 02:53:11,682 - INFO - Using provided project root: /Users/hetpatel/Projects/course-grading-api
+2025-03-11 02:53:11,682 - INFO - Professor base directory: /Users/hetpatel/Projects/course-grading-api/uploads/prof_sean
+2025-03-11 02:53:11,683 - INFO - Attempting to retrieve text from indices at: /Users/hetpatel/Projects/course-grading-api/uploads/prof_sean/indices/faiss_index.pkl
+2025-03-11 02:53:11,683 - INFO - Loading FAISS indices from /Users/hetpatel/Projects/course-grading-api/uploads/prof_sean/indices/faiss_index.pkl
+2025-03-11 02:53:11,784 - INFO - Loaded 5 FAISS indices successfully
+2025-03-11 02:53:11,794 - INFO - Using provided project root: /Users/hetpatel/Projects/course-grading-api
+2025-03-11 02:53:11,794 - INFO - Professor base directory: /Users/hetpatel/Projects/course-grading-api/uploads/prof_sean
+2025-03-11 02:53:11,794 - INFO - Attempting to retrieve text from indices at: /Users/hetpatel/Projects/course-grading-api/uploads/prof_sean/indices/faiss_index.pkl
+2025-03-11 02:53:11,794 - INFO - Loading FAISS indices from /Users/hetpatel/Projects/course-grading-api/uploads/prof_sean/indices/faiss_index.pkl
+2025-03-11 02:53:12,065 - INFO - Loaded 5 FAISS indices successfully
+2025-03-11 02:53:12,078 - INFO - Retrieved 0 unique context chunks
+2025-03-11 02:53:12,078 - INFO - Generating 3 sample rubrics...
+2025-03-11 02:53:12,078 - INFO - Generating sample rubric 1 of 3
+2025-03-11 02:53:12,078 - INFO - Sending request to local model: llama3.1:8b
+2025-03-11 02:53:16,807 - INFO - Successfully generated sample rubric 1
+2025-03-11 02:53:16,809 - INFO - Generating sample rubric 2 of 3
+2025-03-11 02:53:16,809 - INFO - Sending request to local model: llama3.1:8b
+2025-03-11 02:53:20,480 - INFO - Successfully generated sample rubric 2
+2025-03-11 02:53:20,481 - INFO - Generating sample rubric 3 of 3
+2025-03-11 02:53:20,481 - INFO - Sending request to local model: llama3.1:8b
+2025-03-11 02:53:26,328 - INFO - Successfully generated sample rubric 3
+2025-03-11 02:53:26,332 - INFO - Saved sample rubrics to /Users/hetpatel/Projects/course-grading-api/uploads/prof_sean/rubrics/sample_rubrics.json
+2025-03-11 02:56:04,461 - INFO - Retrieving context for question: List and briefly explain the four major steps in d...
+2025-03-11 02:56:04,461 - INFO - Using provided project root: /Users/hetpatel/Projects/course-grading-api
+2025-03-11 02:56:04,461 - INFO - Professor base directory: /Users/hetpatel/Projects/course-grading-api/uploads/prof_sean
+2025-03-11 02:56:04,461 - INFO - Attempting to retrieve text from indices at: /Users/hetpatel/Projects/course-grading-api/uploads/prof_sean/indices/faiss_index.pkl
+2025-03-11 02:56:04,461 - INFO - Loading FAISS indices from /Users/hetpatel/Projects/course-grading-api/uploads/prof_sean/indices/faiss_index.pkl
+2025-03-11 02:56:07,599 - INFO - Loading faiss.
+2025-03-11 02:56:07,623 - INFO - Successfully loaded faiss.
+2025-03-11 02:56:07,625 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+2025-03-11 02:56:07,629 - INFO - Loaded 5 FAISS indices successfully
+2025-03-11 02:56:07,867 - INFO - Using provided project root: /Users/hetpatel/Projects/course-grading-api
+2025-03-11 02:56:07,867 - INFO - Professor base directory: /Users/hetpatel/Projects/course-grading-api/uploads/prof_sean
+2025-03-11 02:56:07,867 - INFO - Attempting to retrieve text from indices at: /Users/hetpatel/Projects/course-grading-api/uploads/prof_sean/indices/faiss_index.pkl
+2025-03-11 02:56:07,867 - INFO - Loading FAISS indices from /Users/hetpatel/Projects/course-grading-api/uploads/prof_sean/indices/faiss_index.pkl
+2025-03-11 02:56:08,081 - INFO - Loaded 5 FAISS indices successfully
+2025-03-11 02:56:08,097 - INFO - Using provided project root: /Users/hetpatel/Projects/course-grading-api
+2025-03-11 02:56:08,097 - INFO - Professor base directory: /Users/hetpatel/Projects/course-grading-api/uploads/prof_sean
+2025-03-11 02:56:08,097 - INFO - Attempting to retrieve text from indices at: /Users/hetpatel/Projects/course-grading-api/uploads/prof_sean/indices/faiss_index.pkl
+2025-03-11 02:56:08,097 - INFO - Loading FAISS indices from /Users/hetpatel/Projects/course-grading-api/uploads/prof_sean/indices/faiss_index.pkl
+2025-03-11 02:56:08,205 - INFO - Loaded 5 FAISS indices successfully
+2025-03-11 02:56:08,215 - INFO - Using provided project root: /Users/hetpatel/Projects/course-grading-api
+2025-03-11 02:56:08,215 - INFO - Professor base directory: /Users/hetpatel/Projects/course-grading-api/uploads/prof_sean
+2025-03-11 02:56:08,215 - INFO - Attempting to retrieve text from indices at: /Users/hetpatel/Projects/course-grading-api/uploads/prof_sean/indices/faiss_index.pkl
+2025-03-11 02:56:08,215 - INFO - Loading FAISS indices from /Users/hetpatel/Projects/course-grading-api/uploads/prof_sean/indices/faiss_index.pkl
+2025-03-11 02:56:08,323 - INFO - Loaded 5 FAISS indices successfully
+2025-03-11 02:56:08,335 - INFO - Using provided project root: /Users/hetpatel/Projects/course-grading-api
+2025-03-11 02:56:08,335 - INFO - Professor base directory: /Users/hetpatel/Projects/course-grading-api/uploads/prof_sean
+2025-03-11 02:56:08,335 - INFO - Attempting to retrieve text from indices at: /Users/hetpatel/Projects/course-grading-api/uploads/prof_sean/indices/faiss_index.pkl
+2025-03-11 02:56:08,335 - INFO - Loading FAISS indices from /Users/hetpatel/Projects/course-grading-api/uploads/prof_sean/indices/faiss_index.pkl
+2025-03-11 02:56:08,444 - INFO - Loaded 5 FAISS indices successfully
+2025-03-11 02:56:08,454 - INFO - Retrieved 0 unique context chunks
+2025-03-11 02:56:08,454 - INFO - Generating 3 sample rubrics...
+2025-03-11 02:56:08,454 - INFO - Generating sample rubric 1 of 3
+2025-03-11 02:56:08,454 - INFO - Sending request to local model: llama3.1:8b
+2025-03-11 02:56:13,133 - INFO - Successfully generated sample rubric 1
+2025-03-11 02:56:13,136 - INFO - Generating sample rubric 2 of 3
+2025-03-11 02:56:13,136 - INFO - Sending request to local model: llama3.1:8b
+2025-03-11 02:56:17,934 - INFO - Successfully generated sample rubric 2
+2025-03-11 02:56:17,934 - INFO - Generating sample rubric 3 of 3
+2025-03-11 02:56:17,935 - INFO - Sending request to local model: llama3.1:8b
+2025-03-11 02:56:22,257 - INFO - Successfully generated sample rubric 3
+2025-03-11 02:56:22,259 - INFO - Saved sample rubrics to /Users/hetpatel/Projects/course-grading-api/uploads/prof_sean/rubrics/sample_rubrics.json
+2025-03-11 02:58:16,775 - INFO - Retrieving context for question: List and briefly explain the four major steps in d...
+2025-03-11 02:58:16,775 - INFO - Using provided project root: /Users/hetpatel/Projects/course-grading-api
+2025-03-11 02:58:16,775 - INFO - Professor base directory: /Users/hetpatel/Projects/course-grading-api/uploads/prof_sean
+2025-03-11 02:58:16,775 - INFO - Attempting to retrieve text from indices at: /Users/hetpatel/Projects/course-grading-api/uploads/prof_sean/indices/faiss_index.pkl
+2025-03-11 02:58:16,775 - INFO - Loading FAISS indices from /Users/hetpatel/Projects/course-grading-api/uploads/prof_sean/indices/faiss_index.pkl
+2025-03-11 02:58:19,573 - INFO - Loading faiss.
+2025-03-11 02:58:19,603 - INFO - Successfully loaded faiss.
+2025-03-11 02:58:19,606 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+2025-03-11 02:58:19,612 - INFO - Loaded 5 FAISS indices successfully
+2025-03-11 02:58:19,809 - INFO - Using provided project root: /Users/hetpatel/Projects/course-grading-api
+2025-03-11 02:58:19,809 - INFO - Professor base directory: /Users/hetpatel/Projects/course-grading-api/uploads/prof_sean
+2025-03-11 02:58:19,809 - INFO - Attempting to retrieve text from indices at: /Users/hetpatel/Projects/course-grading-api/uploads/prof_sean/indices/faiss_index.pkl
+2025-03-11 02:58:19,809 - INFO - Loading FAISS indices from /Users/hetpatel/Projects/course-grading-api/uploads/prof_sean/indices/faiss_index.pkl
+2025-03-11 02:58:20,019 - INFO - Loaded 5 FAISS indices successfully
+2025-03-11 02:58:20,030 - INFO - Using provided project root: /Users/hetpatel/Projects/course-grading-api
+2025-03-11 02:58:20,030 - INFO - Professor base directory: /Users/hetpatel/Projects/course-grading-api/uploads/prof_sean
+2025-03-11 02:58:20,030 - INFO - Attempting to retrieve text from indices at: /Users/hetpatel/Projects/course-grading-api/uploads/prof_sean/indices/faiss_index.pkl
+2025-03-11 02:58:20,030 - INFO - Loading FAISS indices from /Users/hetpatel/Projects/course-grading-api/uploads/prof_sean/indices/faiss_index.pkl
+2025-03-11 02:58:20,130 - INFO - Loaded 5 FAISS indices successfully
+2025-03-11 02:58:20,140 - INFO - Using provided project root: /Users/hetpatel/Projects/course-grading-api
+2025-03-11 02:58:20,141 - INFO - Professor base directory: /Users/hetpatel/Projects/course-grading-api/uploads/prof_sean
+2025-03-11 02:58:20,141 - INFO - Attempting to retrieve text from indices at: /Users/hetpatel/Projects/course-grading-api/uploads/prof_sean/indices/faiss_index.pkl
+2025-03-11 02:58:20,141 - INFO - Loading FAISS indices from /Users/hetpatel/Projects/course-grading-api/uploads/prof_sean/indices/faiss_index.pkl
+2025-03-11 02:58:20,239 - INFO - Loaded 5 FAISS indices successfully
+2025-03-11 02:58:20,250 - INFO - Using provided project root: /Users/hetpatel/Projects/course-grading-api
+2025-03-11 02:58:20,250 - INFO - Professor base directory: /Users/hetpatel/Projects/course-grading-api/uploads/prof_sean
+2025-03-11 02:58:20,250 - INFO - Attempting to retrieve text from indices at: /Users/hetpatel/Projects/course-grading-api/uploads/prof_sean/indices/faiss_index.pkl
+2025-03-11 02:58:20,250 - INFO - Loading FAISS indices from /Users/hetpatel/Projects/course-grading-api/uploads/prof_sean/indices/faiss_index.pkl
+2025-03-11 02:58:20,362 - INFO - Loaded 5 FAISS indices successfully
+2025-03-11 02:58:20,372 - INFO - Retrieved 0 unique context chunks
+2025-03-11 02:58:20,372 - INFO - Generating 3 sample rubrics...
+2025-03-11 02:58:20,372 - INFO - Generating sample rubric 1 of 3
+2025-03-11 02:58:20,372 - INFO - Sending request to local model: llama3.1:8b
+2025-03-11 02:58:25,629 - INFO - Successfully generated sample rubric 1
+2025-03-11 02:58:25,632 - INFO - Generating sample rubric 2 of 3
+2025-03-11 02:58:25,632 - INFO - Sending request to local model: llama3.1:8b
+2025-03-11 02:58:30,441 - INFO - Successfully generated sample rubric 2
+2025-03-11 02:58:30,442 - INFO - Generating sample rubric 3 of 3
+2025-03-11 02:58:30,442 - INFO - Sending request to local model: llama3.1:8b
+2025-03-11 02:58:36,432 - INFO - Successfully generated sample rubric 3
+2025-03-11 02:58:36,437 - INFO - Saved sample rubrics to /Users/hetpatel/Projects/course-grading-api/uploads/prof_sean/rubrics/sample_rubrics.json
+2025-03-11 03:03:13,836 - INFO - Retrieving context for question: List and briefly explain the four major steps in d...
+2025-03-11 03:03:13,837 - INFO - Using provided project root: /Users/hetpatel/Projects/course-grading-api
+2025-03-11 03:03:13,837 - INFO - Professor base directory: /Users/hetpatel/Projects/course-grading-api/uploads/prof_sean
+2025-03-11 03:03:13,837 - INFO - Attempting to retrieve text from indices at: /Users/hetpatel/Projects/course-grading-api/uploads/prof_sean/indices/faiss_index.pkl
+2025-03-11 03:03:13,837 - INFO - Loading FAISS indices from /Users/hetpatel/Projects/course-grading-api/uploads/prof_sean/indices/faiss_index.pkl
+2025-03-11 03:03:16,750 - INFO - Loading faiss.
+2025-03-11 03:03:16,773 - INFO - Successfully loaded faiss.
+2025-03-11 03:03:16,776 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+2025-03-11 03:03:16,780 - INFO - Loaded 5 FAISS indices successfully
+2025-03-11 03:03:16,982 - INFO - Using provided project root: /Users/hetpatel/Projects/course-grading-api
+2025-03-11 03:03:16,982 - INFO - Professor base directory: /Users/hetpatel/Projects/course-grading-api/uploads/prof_sean
+2025-03-11 03:03:16,982 - INFO - Attempting to retrieve text from indices at: /Users/hetpatel/Projects/course-grading-api/uploads/prof_sean/indices/faiss_index.pkl
+2025-03-11 03:03:16,982 - INFO - Loading FAISS indices from /Users/hetpatel/Projects/course-grading-api/uploads/prof_sean/indices/faiss_index.pkl
+2025-03-11 03:03:17,199 - INFO - Loaded 5 FAISS indices successfully
+2025-03-11 03:03:17,209 - INFO - Using provided project root: /Users/hetpatel/Projects/course-grading-api
+2025-03-11 03:03:17,209 - INFO - Professor base directory: /Users/hetpatel/Projects/course-grading-api/uploads/prof_sean
+2025-03-11 03:03:17,209 - INFO - Attempting to retrieve text from indices at: /Users/hetpatel/Projects/course-grading-api/uploads/prof_sean/indices/faiss_index.pkl
+2025-03-11 03:03:17,209 - INFO - Loading FAISS indices from /Users/hetpatel/Projects/course-grading-api/uploads/prof_sean/indices/faiss_index.pkl
+2025-03-11 03:03:17,305 - INFO - Loaded 5 FAISS indices successfully
+2025-03-11 03:03:17,347 - INFO - Using provided project root: /Users/hetpatel/Projects/course-grading-api
+2025-03-11 03:03:17,347 - INFO - Professor base directory: /Users/hetpatel/Projects/course-grading-api/uploads/prof_sean
+2025-03-11 03:03:17,349 - INFO - Attempting to retrieve text from indices at: /Users/hetpatel/Projects/course-grading-api/uploads/prof_sean/indices/faiss_index.pkl
+2025-03-11 03:03:17,349 - INFO - Loading FAISS indices from /Users/hetpatel/Projects/course-grading-api/uploads/prof_sean/indices/faiss_index.pkl
+2025-03-11 03:03:17,475 - INFO - Loaded 5 FAISS indices successfully
+2025-03-11 03:03:17,486 - INFO - Using provided project root: /Users/hetpatel/Projects/course-grading-api
+2025-03-11 03:03:17,487 - INFO - Professor base directory: /Users/hetpatel/Projects/course-grading-api/uploads/prof_sean
+2025-03-11 03:03:17,487 - INFO - Attempting to retrieve text from indices at: /Users/hetpatel/Projects/course-grading-api/uploads/prof_sean/indices/faiss_index.pkl
+2025-03-11 03:03:17,487 - INFO - Loading FAISS indices from /Users/hetpatel/Projects/course-grading-api/uploads/prof_sean/indices/faiss_index.pkl
+2025-03-11 03:03:17,593 - INFO - Loaded 5 FAISS indices successfully
+2025-03-11 03:03:17,603 - INFO - Retrieved 0 unique context chunks
+2025-03-11 03:03:17,604 - INFO - Generating 3 sample rubrics...
+2025-03-11 03:03:17,604 - INFO - Generating sample rubric 1 of 3
+2025-03-11 03:03:17,604 - INFO - Sending request to local model: llama3.1:8b
+2025-03-11 03:03:24,148 - INFO - Successfully generated sample rubric 1
+2025-03-11 03:03:24,150 - INFO - Generating sample rubric 2 of 3
+2025-03-11 03:03:24,150 - INFO - Sending request to local model: llama3.1:8b
+2025-03-11 03:03:28,731 - INFO - Successfully generated sample rubric 2
+2025-03-11 03:03:28,731 - INFO - Generating sample rubric 3 of 3
+2025-03-11 03:03:28,732 - INFO - Sending request to local model: llama3.1:8b
+2025-03-11 03:03:34,160 - INFO - Successfully generated sample rubric 3
+2025-03-11 03:03:34,162 - INFO - Saved sample rubrics to /Users/hetpatel/Projects/course-grading-api/uploads/prof_sean/rubrics/sample_rubrics.json
+2025-03-11 03:05:37,132 - INFO - Retrieving context for question: List and briefly explain the four major steps in d...
+2025-03-11 03:05:37,132 - INFO - Using provided project root: /Users/hetpatel/Projects/course-grading-api
+2025-03-11 03:05:37,132 - INFO - Professor base directory: /Users/hetpatel/Projects/course-grading-api/uploads/prof_sean
+2025-03-11 03:05:37,132 - INFO - Attempting to retrieve text from indices at: /Users/hetpatel/Projects/course-grading-api/uploads/prof_sean/indices/faiss_index.pkl
+2025-03-11 03:05:37,133 - INFO - Loading FAISS indices from /Users/hetpatel/Projects/course-grading-api/uploads/prof_sean/indices/faiss_index.pkl
+2025-03-11 03:05:40,073 - INFO - Loading faiss.
+2025-03-11 03:05:40,099 - INFO - Successfully loaded faiss.
+2025-03-11 03:05:40,102 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+2025-03-11 03:05:40,106 - INFO - Loaded 5 FAISS indices successfully
+2025-03-11 03:05:40,338 - INFO - Using provided project root: /Users/hetpatel/Projects/course-grading-api
+2025-03-11 03:05:40,338 - INFO - Professor base directory: /Users/hetpatel/Projects/course-grading-api/uploads/prof_sean
+2025-03-11 03:05:40,338 - INFO - Attempting to retrieve text from indices at: /Users/hetpatel/Projects/course-grading-api/uploads/prof_sean/indices/faiss_index.pkl
+2025-03-11 03:05:40,338 - INFO - Loading FAISS indices from /Users/hetpatel/Projects/course-grading-api/uploads/prof_sean/indices/faiss_index.pkl
+2025-03-11 03:05:40,599 - INFO - Loaded 5 FAISS indices successfully
+2025-03-11 03:05:40,611 - INFO - Using provided project root: /Users/hetpatel/Projects/course-grading-api
+2025-03-11 03:05:40,611 - INFO - Professor base directory: /Users/hetpatel/Projects/course-grading-api/uploads/prof_sean
+2025-03-11 03:05:40,611 - INFO - Attempting to retrieve text from indices at: /Users/hetpatel/Projects/course-grading-api/uploads/prof_sean/indices/faiss_index.pkl
+2025-03-11 03:05:40,611 - INFO - Loading FAISS indices from /Users/hetpatel/Projects/course-grading-api/uploads/prof_sean/indices/faiss_index.pkl
+2025-03-11 03:05:40,705 - INFO - Loaded 5 FAISS indices successfully
+2025-03-11 03:05:40,715 - INFO - Using provided project root: /Users/hetpatel/Projects/course-grading-api
+2025-03-11 03:05:40,716 - INFO - Professor base directory: /Users/hetpatel/Projects/course-grading-api/uploads/prof_sean
+2025-03-11 03:05:40,716 - INFO - Attempting to retrieve text from indices at: /Users/hetpatel/Projects/course-grading-api/uploads/prof_sean/indices/faiss_index.pkl
+2025-03-11 03:05:40,716 - INFO - Loading FAISS indices from /Users/hetpatel/Projects/course-grading-api/uploads/prof_sean/indices/faiss_index.pkl
+2025-03-11 03:05:40,811 - INFO - Loaded 5 FAISS indices successfully
+2025-03-11 03:05:40,822 - INFO - Using provided project root: /Users/hetpatel/Projects/course-grading-api
+2025-03-11 03:05:40,822 - INFO - Professor base directory: /Users/hetpatel/Projects/course-grading-api/uploads/prof_sean
+2025-03-11 03:05:40,822 - INFO - Attempting to retrieve text from indices at: /Users/hetpatel/Projects/course-grading-api/uploads/prof_sean/indices/faiss_index.pkl
+2025-03-11 03:05:40,822 - INFO - Loading FAISS indices from /Users/hetpatel/Projects/course-grading-api/uploads/prof_sean/indices/faiss_index.pkl
+2025-03-11 03:05:40,922 - INFO - Loaded 5 FAISS indices successfully
+2025-03-11 03:05:40,932 - INFO - Retrieved 0 unique context chunks
+2025-03-11 03:05:40,933 - INFO - Generating 3 sample rubrics...
+2025-03-11 03:05:40,933 - INFO - Generating sample rubric 1 of 3
+2025-03-11 03:05:40,933 - INFO - Sending request to local model: llama3.1:8b
+2025-03-11 03:05:46,254 - INFO - Successfully generated sample rubric 1
+2025-03-11 03:05:46,256 - INFO - Generating sample rubric 2 of 3
+2025-03-11 03:05:46,256 - INFO - Sending request to local model: llama3.1:8b
+2025-03-11 03:05:52,021 - INFO - Successfully generated sample rubric 2
+2025-03-11 03:05:52,021 - INFO - Generating sample rubric 3 of 3
+2025-03-11 03:05:52,022 - INFO - Sending request to local model: llama3.1:8b
+2025-03-11 03:05:57,928 - INFO - Successfully generated sample rubric 3
+2025-03-11 03:05:57,931 - INFO - Saved sample rubrics to /Users/hetpatel/Projects/course-grading-api/uploads/prof_sean/rubrics/sample_rubrics.json
+2025-03-11 03:07:20,540 - INFO - Retrieving context for question: List and briefly explain the four major steps in d...
+2025-03-11 03:07:20,540 - INFO - Using provided project root: /Users/hetpatel/Projects/course-grading-api
+2025-03-11 03:07:20,540 - INFO - Professor base directory: /Users/hetpatel/Projects/course-grading-api/uploads/prof_sean
+2025-03-11 03:07:20,540 - INFO - Attempting to retrieve text from indices at: /Users/hetpatel/Projects/course-grading-api/uploads/prof_sean/indices/faiss_index.pkl
+2025-03-11 03:07:20,540 - INFO - Loading FAISS indices from /Users/hetpatel/Projects/course-grading-api/uploads/prof_sean/indices/faiss_index.pkl
+2025-03-11 03:07:23,756 - INFO - Loading faiss.
+2025-03-11 03:07:23,781 - INFO - Successfully loaded faiss.
+2025-03-11 03:07:23,784 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+2025-03-11 03:07:23,787 - INFO - Loaded 5 FAISS indices successfully
+2025-03-11 03:07:24,017 - INFO - Using provided project root: /Users/hetpatel/Projects/course-grading-api
+2025-03-11 03:07:24,017 - INFO - Professor base directory: /Users/hetpatel/Projects/course-grading-api/uploads/prof_sean
+2025-03-11 03:07:24,017 - INFO - Attempting to retrieve text from indices at: /Users/hetpatel/Projects/course-grading-api/uploads/prof_sean/indices/faiss_index.pkl
+2025-03-11 03:07:24,017 - INFO - Loading FAISS indices from /Users/hetpatel/Projects/course-grading-api/uploads/prof_sean/indices/faiss_index.pkl
+2025-03-11 03:07:24,129 - INFO - Loaded 5 FAISS indices successfully
+2025-03-11 03:07:24,139 - INFO - Using provided project root: /Users/hetpatel/Projects/course-grading-api
+2025-03-11 03:07:24,139 - INFO - Professor base directory: /Users/hetpatel/Projects/course-grading-api/uploads/prof_sean
+2025-03-11 03:07:24,139 - INFO - Attempting to retrieve text from indices at: /Users/hetpatel/Projects/course-grading-api/uploads/prof_sean/indices/faiss_index.pkl
+2025-03-11 03:07:24,140 - INFO - Loading FAISS indices from /Users/hetpatel/Projects/course-grading-api/uploads/prof_sean/indices/faiss_index.pkl
+2025-03-11 03:07:24,337 - INFO - Loaded 5 FAISS indices successfully
+2025-03-11 03:07:24,350 - INFO - Using provided project root: /Users/hetpatel/Projects/course-grading-api
+2025-03-11 03:07:24,350 - INFO - Professor base directory: /Users/hetpatel/Projects/course-grading-api/uploads/prof_sean
+2025-03-11 03:07:24,350 - INFO - Attempting to retrieve text from indices at: /Users/hetpatel/Projects/course-grading-api/uploads/prof_sean/indices/faiss_index.pkl
+2025-03-11 03:07:24,350 - INFO - Loading FAISS indices from /Users/hetpatel/Projects/course-grading-api/uploads/prof_sean/indices/faiss_index.pkl
+2025-03-11 03:07:24,455 - INFO - Loaded 5 FAISS indices successfully
+2025-03-11 03:07:24,466 - INFO - Using provided project root: /Users/hetpatel/Projects/course-grading-api
+2025-03-11 03:07:24,466 - INFO - Professor base directory: /Users/hetpatel/Projects/course-grading-api/uploads/prof_sean
+2025-03-11 03:07:24,466 - INFO - Attempting to retrieve text from indices at: /Users/hetpatel/Projects/course-grading-api/uploads/prof_sean/indices/faiss_index.pkl
+2025-03-11 03:07:24,466 - INFO - Loading FAISS indices from /Users/hetpatel/Projects/course-grading-api/uploads/prof_sean/indices/faiss_index.pkl
+2025-03-11 03:07:24,571 - INFO - Loaded 5 FAISS indices successfully
+2025-03-11 03:07:24,581 - INFO - Retrieved 0 unique context chunks
+2025-03-11 03:07:24,581 - INFO - Generating 3 sample rubrics...
+2025-03-11 03:07:24,581 - INFO - Generating sample rubric 1 of 3
+2025-03-11 03:07:24,582 - INFO - Sending request to local model: llama3.1:8b
+2025-03-11 03:07:29,017 - INFO - Successfully generated sample rubric 1
+2025-03-11 03:07:29,017 - INFO - Generating sample rubric 2 of 3
+2025-03-11 03:07:29,017 - INFO - Sending request to local model: llama3.1:8b
+2025-03-11 03:07:33,544 - INFO - Successfully generated sample rubric 2
+2025-03-11 03:07:33,545 - INFO - Generating sample rubric 3 of 3
+2025-03-11 03:07:33,545 - INFO - Sending request to local model: llama3.1:8b
+2025-03-11 03:07:38,599 - INFO - Successfully generated sample rubric 3
+2025-03-11 03:16:24,455 - INFO - Retrieving context for question: List and briefly explain the four major steps in d...
+2025-03-11 03:16:24,455 - INFO - Using provided project root: /Users/hetpatel/Projects/course-grading-api
+2025-03-11 03:16:24,455 - INFO - Professor base directory: /Users/hetpatel/Projects/course-grading-api/uploads/prof_sean
+2025-03-11 03:16:24,455 - INFO - Attempting to retrieve text from indices at: /Users/hetpatel/Projects/course-grading-api/uploads/prof_sean/indices/faiss_index.pkl
+2025-03-11 03:16:24,455 - INFO - Loading FAISS indices from /Users/hetpatel/Projects/course-grading-api/uploads/prof_sean/indices/faiss_index.pkl
+2025-03-11 03:16:27,575 - INFO - Loading faiss.
+2025-03-11 03:16:27,599 - INFO - Successfully loaded faiss.
+2025-03-11 03:16:27,602 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+2025-03-11 03:16:27,605 - INFO - Loaded 5 FAISS indices successfully
+2025-03-11 03:16:27,834 - INFO - Using provided project root: /Users/hetpatel/Projects/course-grading-api
+2025-03-11 03:16:27,834 - INFO - Professor base directory: /Users/hetpatel/Projects/course-grading-api/uploads/prof_sean
+2025-03-11 03:16:27,834 - INFO - Attempting to retrieve text from indices at: /Users/hetpatel/Projects/course-grading-api/uploads/prof_sean/indices/faiss_index.pkl
+2025-03-11 03:16:27,834 - INFO - Loading FAISS indices from /Users/hetpatel/Projects/course-grading-api/uploads/prof_sean/indices/faiss_index.pkl
+2025-03-11 03:16:28,031 - INFO - Loaded 5 FAISS indices successfully
+2025-03-11 03:16:28,046 - INFO - Using provided project root: /Users/hetpatel/Projects/course-grading-api
+2025-03-11 03:16:28,047 - INFO - Professor base directory: /Users/hetpatel/Projects/course-grading-api/uploads/prof_sean
+2025-03-11 03:16:28,047 - INFO - Attempting to retrieve text from indices at: /Users/hetpatel/Projects/course-grading-api/uploads/prof_sean/indices/faiss_index.pkl
+2025-03-11 03:16:28,047 - INFO - Loading FAISS indices from /Users/hetpatel/Projects/course-grading-api/uploads/prof_sean/indices/faiss_index.pkl
+2025-03-11 03:16:28,148 - INFO - Loaded 5 FAISS indices successfully
+2025-03-11 03:16:28,158 - INFO - Using provided project root: /Users/hetpatel/Projects/course-grading-api
+2025-03-11 03:16:28,158 - INFO - Professor base directory: /Users/hetpatel/Projects/course-grading-api/uploads/prof_sean
+2025-03-11 03:16:28,158 - INFO - Attempting to retrieve text from indices at: /Users/hetpatel/Projects/course-grading-api/uploads/prof_sean/indices/faiss_index.pkl
+2025-03-11 03:16:28,158 - INFO - Loading FAISS indices from /Users/hetpatel/Projects/course-grading-api/uploads/prof_sean/indices/faiss_index.pkl
+2025-03-11 03:16:28,253 - INFO - Loaded 5 FAISS indices successfully
+2025-03-11 03:16:28,263 - INFO - Using provided project root: /Users/hetpatel/Projects/course-grading-api
+2025-03-11 03:16:28,263 - INFO - Professor base directory: /Users/hetpatel/Projects/course-grading-api/uploads/prof_sean
+2025-03-11 03:16:28,263 - INFO - Attempting to retrieve text from indices at: /Users/hetpatel/Projects/course-grading-api/uploads/prof_sean/indices/faiss_index.pkl
+2025-03-11 03:16:28,263 - INFO - Loading FAISS indices from /Users/hetpatel/Projects/course-grading-api/uploads/prof_sean/indices/faiss_index.pkl
+2025-03-11 03:16:28,383 - INFO - Loaded 5 FAISS indices successfully
+2025-03-11 03:16:28,394 - INFO - Retrieved 0 unique context chunks
+2025-03-11 03:16:28,394 - INFO - Generating 3 sample rubrics...
+2025-03-11 03:16:28,394 - INFO - Generating sample rubric 1 of 3
+2025-03-11 03:16:28,394 - INFO - Sending request to local model: llama3.1:8b
+2025-03-11 03:16:35,384 - INFO - Successfully generated sample rubric 1
+2025-03-11 03:16:35,386 - INFO - Generating sample rubric 2 of 3
+2025-03-11 03:16:35,386 - INFO - Sending request to local model: llama3.1:8b
+2025-03-11 03:16:39,689 - INFO - Successfully generated sample rubric 2
+2025-03-11 03:16:39,689 - INFO - Generating sample rubric 3 of 3
+2025-03-11 03:16:39,689 - INFO - Sending request to local model: llama3.1:8b
+2025-03-11 03:16:44,067 - INFO - Successfully generated sample rubric 3
+2025-03-11 13:19:18,499 - INFO - Retrieving context for question: "List and briefly explain the four major steps in ...
+2025-03-11 13:19:18,500 - INFO - Using provided project root: /Users/hetpatel/Projects/course-grading-api
+2025-03-11 13:19:18,500 - INFO - Professor base directory: /Users/hetpatel/Projects/course-grading-api/uploads/prof_sean
+2025-03-11 13:19:18,500 - INFO - Attempting to retrieve text from indices at: /Users/hetpatel/Projects/course-grading-api/uploads/prof_sean/indices/faiss_index.pkl
+2025-03-11 13:19:18,500 - INFO - Loading FAISS indices from /Users/hetpatel/Projects/course-grading-api/uploads/prof_sean/indices/faiss_index.pkl
+2025-03-11 13:19:22,542 - INFO - Loading faiss.
+2025-03-11 13:19:22,585 - INFO - Successfully loaded faiss.
+2025-03-11 13:19:22,588 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+2025-03-11 13:19:22,591 - INFO - Loaded 5 FAISS indices successfully
+2025-03-11 13:19:22,941 - INFO - Using provided project root: /Users/hetpatel/Projects/course-grading-api
+2025-03-11 13:19:22,941 - INFO - Professor base directory: /Users/hetpatel/Projects/course-grading-api/uploads/prof_sean
+2025-03-11 13:19:22,941 - INFO - Attempting to retrieve text from indices at: /Users/hetpatel/Projects/course-grading-api/uploads/prof_sean/indices/faiss_index.pkl
+2025-03-11 13:19:22,941 - INFO - Loading FAISS indices from /Users/hetpatel/Projects/course-grading-api/uploads/prof_sean/indices/faiss_index.pkl
+2025-03-11 13:19:23,143 - INFO - Loaded 5 FAISS indices successfully
+2025-03-11 13:19:23,154 - INFO - Using provided project root: /Users/hetpatel/Projects/course-grading-api
+2025-03-11 13:19:23,154 - INFO - Professor base directory: /Users/hetpatel/Projects/course-grading-api/uploads/prof_sean
+2025-03-11 13:19:23,154 - INFO - Attempting to retrieve text from indices at: /Users/hetpatel/Projects/course-grading-api/uploads/prof_sean/indices/faiss_index.pkl
+2025-03-11 13:19:23,154 - INFO - Loading FAISS indices from /Users/hetpatel/Projects/course-grading-api/uploads/prof_sean/indices/faiss_index.pkl
+2025-03-11 13:19:23,259 - INFO - Loaded 5 FAISS indices successfully
+2025-03-11 13:19:23,270 - INFO - Using provided project root: /Users/hetpatel/Projects/course-grading-api
+2025-03-11 13:19:23,270 - INFO - Professor base directory: /Users/hetpatel/Projects/course-grading-api/uploads/prof_sean
+2025-03-11 13:19:23,270 - INFO - Attempting to retrieve text from indices at: /Users/hetpatel/Projects/course-grading-api/uploads/prof_sean/indices/faiss_index.pkl
+2025-03-11 13:19:23,270 - INFO - Loading FAISS indices from /Users/hetpatel/Projects/course-grading-api/uploads/prof_sean/indices/faiss_index.pkl
+2025-03-11 13:19:23,367 - INFO - Loaded 5 FAISS indices successfully
+2025-03-11 13:19:23,378 - INFO - Using provided project root: /Users/hetpatel/Projects/course-grading-api
+2025-03-11 13:19:23,378 - INFO - Professor base directory: /Users/hetpatel/Projects/course-grading-api/uploads/prof_sean
+2025-03-11 13:19:23,378 - INFO - Attempting to retrieve text from indices at: /Users/hetpatel/Projects/course-grading-api/uploads/prof_sean/indices/faiss_index.pkl
+2025-03-11 13:19:23,378 - INFO - Loading FAISS indices from /Users/hetpatel/Projects/course-grading-api/uploads/prof_sean/indices/faiss_index.pkl
+2025-03-11 13:19:23,488 - INFO - Loaded 5 FAISS indices successfully
+2025-03-11 13:19:23,498 - INFO - Retrieved 0 unique context chunks
+2025-03-11 13:19:23,498 - INFO - Generating 3 sample rubrics using model: llama3.1:8b...
+2025-03-11 13:19:23,498 - INFO - Generating sample rubric 1 of 3 (Focus primarily on the practical (application) aspects of the question.)
+2025-03-11 13:19:23,499 - INFO - Sending request to local model: llama3.1:8b
+2025-03-11 13:19:33,293 - INFO - Successfully generated sample rubric 1
+2025-03-11 13:19:33,293 - INFO - Generating sample rubric 2 of 3 (Focus primarily on the theoretical or conceptual understanding of the question.)
+2025-03-11 13:19:33,293 - INFO - Sending request to local model: llama3.1:8b
+2025-03-11 13:19:37,592 - INFO - Successfully generated sample rubric 2
+2025-03-11 13:19:37,593 - INFO - Generating sample rubric 3 of 3 (Provide a balanced approach that covers both theoretical understanding and practical application.)
+2025-03-11 13:19:37,593 - INFO - Sending request to local model: llama3.1:8b
+2025-03-11 13:19:43,124 - INFO - Successfully generated sample rubric 3
+2025-03-11 14:26:22,298 - INFO - Retrieving context for question: "List and briefly explain the four major steps in ...
+2025-03-11 14:26:22,298 - INFO - Using provided project root: /Users/hetpatel/Projects/course-grading-api
+2025-03-11 14:26:22,298 - INFO - Professor base directory: /Users/hetpatel/Projects/course-grading-api/uploads/prof_sean
+2025-03-11 14:26:22,298 - INFO - Attempting to retrieve text from indices at: /Users/hetpatel/Projects/course-grading-api/uploads/prof_sean/indices/faiss_index.pkl
+2025-03-11 14:26:22,298 - INFO - Loading FAISS indices from /Users/hetpatel/Projects/course-grading-api/uploads/prof_sean/indices/faiss_index.pkl
+2025-03-11 14:26:25,641 - INFO - Loading faiss.
+2025-03-11 14:26:25,667 - INFO - Successfully loaded faiss.
+2025-03-11 14:26:25,670 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+2025-03-11 14:26:25,673 - INFO - Loaded 5 FAISS indices successfully
+2025-03-11 14:26:25,992 - INFO - Using provided project root: /Users/hetpatel/Projects/course-grading-api
+2025-03-11 14:26:25,992 - INFO - Professor base directory: /Users/hetpatel/Projects/course-grading-api/uploads/prof_sean
+2025-03-11 14:26:25,992 - INFO - Attempting to retrieve text from indices at: /Users/hetpatel/Projects/course-grading-api/uploads/prof_sean/indices/faiss_index.pkl
+2025-03-11 14:26:25,992 - INFO - Loading FAISS indices from /Users/hetpatel/Projects/course-grading-api/uploads/prof_sean/indices/faiss_index.pkl
+2025-03-11 14:26:26,235 - INFO - Loaded 5 FAISS indices successfully
+2025-03-11 14:26:26,246 - INFO - Using provided project root: /Users/hetpatel/Projects/course-grading-api
+2025-03-11 14:26:26,246 - INFO - Professor base directory: /Users/hetpatel/Projects/course-grading-api/uploads/prof_sean
+2025-03-11 14:26:26,246 - INFO - Attempting to retrieve text from indices at: /Users/hetpatel/Projects/course-grading-api/uploads/prof_sean/indices/faiss_index.pkl
+2025-03-11 14:26:26,246 - INFO - Loading FAISS indices from /Users/hetpatel/Projects/course-grading-api/uploads/prof_sean/indices/faiss_index.pkl
+2025-03-11 14:26:26,358 - INFO - Loaded 5 FAISS indices successfully
+2025-03-11 14:26:26,371 - INFO - Using provided project root: /Users/hetpatel/Projects/course-grading-api
+2025-03-11 14:26:26,371 - INFO - Professor base directory: /Users/hetpatel/Projects/course-grading-api/uploads/prof_sean
+2025-03-11 14:26:26,371 - INFO - Attempting to retrieve text from indices at: /Users/hetpatel/Projects/course-grading-api/uploads/prof_sean/indices/faiss_index.pkl
+2025-03-11 14:26:26,371 - INFO - Loading FAISS indices from /Users/hetpatel/Projects/course-grading-api/uploads/prof_sean/indices/faiss_index.pkl
+2025-03-11 14:26:26,488 - INFO - Loaded 5 FAISS indices successfully
+2025-03-11 14:26:26,500 - INFO - Using provided project root: /Users/hetpatel/Projects/course-grading-api
+2025-03-11 14:26:26,500 - INFO - Professor base directory: /Users/hetpatel/Projects/course-grading-api/uploads/prof_sean
+2025-03-11 14:26:26,500 - INFO - Attempting to retrieve text from indices at: /Users/hetpatel/Projects/course-grading-api/uploads/prof_sean/indices/faiss_index.pkl
+2025-03-11 14:26:26,500 - INFO - Loading FAISS indices from /Users/hetpatel/Projects/course-grading-api/uploads/prof_sean/indices/faiss_index.pkl
+2025-03-11 14:26:26,623 - INFO - Loaded 5 FAISS indices successfully
+2025-03-11 14:26:26,633 - INFO - Retrieved 0 unique context chunks
+2025-03-11 14:26:26,633 - INFO - Generating 3 sample rubrics using model: llama3.1:8b...
+2025-03-11 14:26:26,633 - INFO - Generating sample rubric 1 of 3 (Focus primarily on the practical (application) aspects of the question.)
+2025-03-11 14:26:26,633 - INFO - Sending request to local model: llama3.1:8b
+2025-03-11 14:26:32,994 - INFO - Successfully generated sample rubric 1
+2025-03-11 14:26:32,995 - INFO - Generating sample rubric 2 of 3 (Focus primarily on the theoretical or conceptual understanding of the question.)
+2025-03-11 14:26:32,995 - INFO - Sending request to local model: llama3.1:8b
+2025-03-11 14:26:42,144 - INFO - Successfully generated sample rubric 2
+2025-03-11 14:26:42,146 - INFO - Generating sample rubric 3 of 3 (Provide a balanced approach that covers both theoretical understanding and practical application.)
+2025-03-11 14:26:42,146 - INFO - Sending request to local model: llama3.1:8b
+2025-03-11 14:26:48,033 - INFO - Successfully generated sample rubric 3
+2025-03-11 14:41:48,248 - INFO - Retrieving context for question: "List and briefly explain the four major steps in ...
+2025-03-11 14:41:48,248 - INFO - Using provided project root: /Users/hetpatel/Projects/course-grading-api
+2025-03-11 14:41:48,248 - INFO - Professor base directory: /Users/hetpatel/Projects/course-grading-api/uploads/prof_sean
+2025-03-11 14:41:48,248 - INFO - Attempting to retrieve text from indices at: /Users/hetpatel/Projects/course-grading-api/uploads/prof_sean/indices/faiss_index.pkl
+2025-03-11 14:41:48,248 - INFO - Loading FAISS indices from /Users/hetpatel/Projects/course-grading-api/uploads/prof_sean/indices/faiss_index.pkl
+2025-03-11 14:41:51,589 - INFO - Loading faiss.
+2025-03-11 14:41:51,641 - INFO - Successfully loaded faiss.
+2025-03-11 14:41:51,645 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+2025-03-11 14:41:51,649 - INFO - Loaded 5 FAISS indices successfully
+2025-03-11 14:41:51,925 - INFO - Using provided project root: /Users/hetpatel/Projects/course-grading-api
+2025-03-11 14:41:51,925 - INFO - Professor base directory: /Users/hetpatel/Projects/course-grading-api/uploads/prof_sean
+2025-03-11 14:41:51,925 - INFO - Attempting to retrieve text from indices at: /Users/hetpatel/Projects/course-grading-api/uploads/prof_sean/indices/faiss_index.pkl
+2025-03-11 14:41:51,925 - INFO - Loading FAISS indices from /Users/hetpatel/Projects/course-grading-api/uploads/prof_sean/indices/faiss_index.pkl
+2025-03-11 14:41:52,134 - INFO - Loaded 5 FAISS indices successfully
+2025-03-11 14:41:52,146 - INFO - Using provided project root: /Users/hetpatel/Projects/course-grading-api
+2025-03-11 14:41:52,146 - INFO - Professor base directory: /Users/hetpatel/Projects/course-grading-api/uploads/prof_sean
+2025-03-11 14:41:52,146 - INFO - Attempting to retrieve text from indices at: /Users/hetpatel/Projects/course-grading-api/uploads/prof_sean/indices/faiss_index.pkl
+2025-03-11 14:41:52,146 - INFO - Loading FAISS indices from /Users/hetpatel/Projects/course-grading-api/uploads/prof_sean/indices/faiss_index.pkl
+2025-03-11 14:41:52,250 - INFO - Loaded 5 FAISS indices successfully
+2025-03-11 14:41:52,260 - INFO - Using provided project root: /Users/hetpatel/Projects/course-grading-api
+2025-03-11 14:41:52,260 - INFO - Professor base directory: /Users/hetpatel/Projects/course-grading-api/uploads/prof_sean
+2025-03-11 14:41:52,260 - INFO - Attempting to retrieve text from indices at: /Users/hetpatel/Projects/course-grading-api/uploads/prof_sean/indices/faiss_index.pkl
+2025-03-11 14:41:52,261 - INFO - Loading FAISS indices from /Users/hetpatel/Projects/course-grading-api/uploads/prof_sean/indices/faiss_index.pkl
+2025-03-11 14:41:52,369 - INFO - Loaded 5 FAISS indices successfully
+2025-03-11 14:41:52,381 - INFO - Using provided project root: /Users/hetpatel/Projects/course-grading-api
+2025-03-11 14:41:52,382 - INFO - Professor base directory: /Users/hetpatel/Projects/course-grading-api/uploads/prof_sean
+2025-03-11 14:41:52,382 - INFO - Attempting to retrieve text from indices at: /Users/hetpatel/Projects/course-grading-api/uploads/prof_sean/indices/faiss_index.pkl
+2025-03-11 14:41:52,382 - INFO - Loading FAISS indices from /Users/hetpatel/Projects/course-grading-api/uploads/prof_sean/indices/faiss_index.pkl
+2025-03-11 14:41:52,515 - INFO - Loaded 5 FAISS indices successfully
+2025-03-11 14:41:52,527 - INFO - Retrieved 0 unique context chunks
+2025-03-11 14:41:52,527 - INFO - Generating 3 sample rubrics using model: llama3.2:3b...
+2025-03-11 14:41:52,527 - INFO - Generating sample rubric 1 of 3 (Focus primarily on the practical (application) aspects of the question.)
+2025-03-11 14:41:52,527 - INFO - Sending request to local model: llama3.2:3b
+2025-03-11 14:41:57,903 - INFO - Successfully generated sample rubric 1
+2025-03-11 14:41:57,903 - INFO - Generating sample rubric 2 of 3 (Focus primarily on the theoretical or conceptual understanding of the question.)
+2025-03-11 14:41:57,903 - INFO - Sending request to local model: llama3.2:3b
+2025-03-11 14:42:01,882 - INFO - Successfully generated sample rubric 2
+2025-03-11 14:42:01,883 - INFO - Generating sample rubric 3 of 3 (Provide a balanced approach that covers both theoretical understanding and practical application.)
+2025-03-11 14:42:01,883 - INFO - Sending request to local model: llama3.2:3b
+2025-03-11 14:42:05,232 - INFO - Successfully generated sample rubric 3
+2025-03-11 15:19:12,263 - INFO - Retrieving context for question: "List and briefly explain the four major steps in ...
+2025-03-11 15:19:12,263 - INFO - Using provided project root: /Users/hetpatel/Projects/course-grading-api
+2025-03-11 15:19:12,263 - INFO - Professor base directory: /Users/hetpatel/Projects/course-grading-api/uploads/prof_sean
+2025-03-11 15:19:12,263 - INFO - Attempting to retrieve text from indices at: /Users/hetpatel/Projects/course-grading-api/uploads/prof_sean/indices/faiss_index.pkl
+2025-03-11 15:19:12,263 - INFO - Loading FAISS indices from /Users/hetpatel/Projects/course-grading-api/uploads/prof_sean/indices/faiss_index.pkl
+2025-03-11 15:19:15,381 - INFO - Loading faiss.
+2025-03-11 15:19:15,422 - INFO - Successfully loaded faiss.
+2025-03-11 15:19:15,425 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+2025-03-11 15:19:15,429 - INFO - Loaded 5 FAISS indices successfully
+2025-03-11 15:19:15,682 - INFO - Using provided project root: /Users/hetpatel/Projects/course-grading-api
+2025-03-11 15:19:15,682 - INFO - Professor base directory: /Users/hetpatel/Projects/course-grading-api/uploads/prof_sean
+2025-03-11 15:19:15,682 - INFO - Attempting to retrieve text from indices at: /Users/hetpatel/Projects/course-grading-api/uploads/prof_sean/indices/faiss_index.pkl
+2025-03-11 15:19:15,682 - INFO - Loading FAISS indices from /Users/hetpatel/Projects/course-grading-api/uploads/prof_sean/indices/faiss_index.pkl
+2025-03-11 15:19:15,882 - INFO - Loaded 5 FAISS indices successfully
+2025-03-11 15:19:15,893 - INFO - Using provided project root: /Users/hetpatel/Projects/course-grading-api
+2025-03-11 15:19:15,893 - INFO - Professor base directory: /Users/hetpatel/Projects/course-grading-api/uploads/prof_sean
+2025-03-11 15:19:15,893 - INFO - Attempting to retrieve text from indices at: /Users/hetpatel/Projects/course-grading-api/uploads/prof_sean/indices/faiss_index.pkl
+2025-03-11 15:19:15,893 - INFO - Loading FAISS indices from /Users/hetpatel/Projects/course-grading-api/uploads/prof_sean/indices/faiss_index.pkl
+2025-03-11 15:19:15,997 - INFO - Loaded 5 FAISS indices successfully
+2025-03-11 15:19:16,008 - INFO - Using provided project root: /Users/hetpatel/Projects/course-grading-api
+2025-03-11 15:19:16,008 - INFO - Professor base directory: /Users/hetpatel/Projects/course-grading-api/uploads/prof_sean
+2025-03-11 15:19:16,008 - INFO - Attempting to retrieve text from indices at: /Users/hetpatel/Projects/course-grading-api/uploads/prof_sean/indices/faiss_index.pkl
+2025-03-11 15:19:16,008 - INFO - Loading FAISS indices from /Users/hetpatel/Projects/course-grading-api/uploads/prof_sean/indices/faiss_index.pkl
+2025-03-11 15:19:16,107 - INFO - Loaded 5 FAISS indices successfully
+2025-03-11 15:19:16,117 - INFO - Using provided project root: /Users/hetpatel/Projects/course-grading-api
+2025-03-11 15:19:16,118 - INFO - Professor base directory: /Users/hetpatel/Projects/course-grading-api/uploads/prof_sean
+2025-03-11 15:19:16,118 - INFO - Attempting to retrieve text from indices at: /Users/hetpatel/Projects/course-grading-api/uploads/prof_sean/indices/faiss_index.pkl
+2025-03-11 15:19:16,118 - INFO - Loading FAISS indices from /Users/hetpatel/Projects/course-grading-api/uploads/prof_sean/indices/faiss_index.pkl
+2025-03-11 15:19:16,223 - INFO - Loaded 5 FAISS indices successfully
+2025-03-11 15:19:16,233 - INFO - Retrieved 0 unique context chunks
+2025-03-11 15:19:16,233 - INFO - Generating 3 sample rubrics using model: llama3.1:8b...
+2025-03-11 15:19:16,233 - INFO - Generating sample rubric 1 of 3 (Focus primarily on the practical (application) aspects of the question.)
+2025-03-11 15:19:16,234 - INFO - Sending request to local model: llama3.1:8b
+2025-03-11 15:19:16,239 - ERROR - Error calling local model API: HTTPConnectionPool(host='localhost', port=5001): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x13019cdc0>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2025-03-11 15:19:16,239 - ERROR - Error generating rubric 1: HTTPConnectionPool(host='localhost', port=5001): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x13019cdc0>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2025-03-11 15:19:16,239 - INFO - Generating sample rubric 2 of 3 (Focus primarily on the theoretical or conceptual understanding of the question.)
+2025-03-11 15:19:16,239 - INFO - Sending request to local model: llama3.1:8b
+2025-03-11 15:19:16,240 - ERROR - Error calling local model API: HTTPConnectionPool(host='localhost', port=5001): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x13019f250>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2025-03-11 15:19:16,240 - ERROR - Error generating rubric 2: HTTPConnectionPool(host='localhost', port=5001): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x13019f250>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2025-03-11 15:19:16,240 - INFO - Generating sample rubric 3 of 3 (Provide a balanced approach that covers both theoretical understanding and practical application.)
+2025-03-11 15:19:16,240 - INFO - Sending request to local model: llama3.1:8b
+2025-03-11 15:19:16,242 - ERROR - Error calling local model API: HTTPConnectionPool(host='localhost', port=5001): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x13019ce50>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2025-03-11 15:19:16,242 - ERROR - Error generating rubric 3: HTTPConnectionPool(host='localhost', port=5001): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x13019ce50>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2025-03-11 15:19:52,454 - INFO - Retrieving context for question: "List and briefly explain the four major steps in ...
+2025-03-11 15:19:52,454 - INFO - Using provided project root: /Users/hetpatel/Projects/course-grading-api
+2025-03-11 15:19:52,454 - INFO - Professor base directory: /Users/hetpatel/Projects/course-grading-api/uploads/prof_sean
+2025-03-11 15:19:52,454 - INFO - Attempting to retrieve text from indices at: /Users/hetpatel/Projects/course-grading-api/uploads/prof_sean/indices/faiss_index.pkl
+2025-03-11 15:19:52,454 - INFO - Loading FAISS indices from /Users/hetpatel/Projects/course-grading-api/uploads/prof_sean/indices/faiss_index.pkl
+2025-03-11 15:19:54,903 - INFO - Loading faiss.
+2025-03-11 15:19:54,935 - INFO - Successfully loaded faiss.
+2025-03-11 15:19:54,939 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+2025-03-11 15:19:54,943 - INFO - Loaded 5 FAISS indices successfully
+2025-03-11 15:19:55,140 - INFO - Using provided project root: /Users/hetpatel/Projects/course-grading-api
+2025-03-11 15:19:55,140 - INFO - Professor base directory: /Users/hetpatel/Projects/course-grading-api/uploads/prof_sean
+2025-03-11 15:19:55,141 - INFO - Attempting to retrieve text from indices at: /Users/hetpatel/Projects/course-grading-api/uploads/prof_sean/indices/faiss_index.pkl
+2025-03-11 15:19:55,141 - INFO - Loading FAISS indices from /Users/hetpatel/Projects/course-grading-api/uploads/prof_sean/indices/faiss_index.pkl
+2025-03-11 15:19:55,254 - INFO - Loaded 5 FAISS indices successfully
+2025-03-11 15:19:55,265 - INFO - Using provided project root: /Users/hetpatel/Projects/course-grading-api
+2025-03-11 15:19:55,265 - INFO - Professor base directory: /Users/hetpatel/Projects/course-grading-api/uploads/prof_sean
+2025-03-11 15:19:55,265 - INFO - Attempting to retrieve text from indices at: /Users/hetpatel/Projects/course-grading-api/uploads/prof_sean/indices/faiss_index.pkl
+2025-03-11 15:19:55,265 - INFO - Loading FAISS indices from /Users/hetpatel/Projects/course-grading-api/uploads/prof_sean/indices/faiss_index.pkl
+2025-03-11 15:19:55,491 - INFO - Loaded 5 FAISS indices successfully
+2025-03-11 15:19:55,501 - INFO - Using provided project root: /Users/hetpatel/Projects/course-grading-api
+2025-03-11 15:19:55,501 - INFO - Professor base directory: /Users/hetpatel/Projects/course-grading-api/uploads/prof_sean
+2025-03-11 15:19:55,501 - INFO - Attempting to retrieve text from indices at: /Users/hetpatel/Projects/course-grading-api/uploads/prof_sean/indices/faiss_index.pkl
+2025-03-11 15:19:55,501 - INFO - Loading FAISS indices from /Users/hetpatel/Projects/course-grading-api/uploads/prof_sean/indices/faiss_index.pkl
+2025-03-11 15:19:55,600 - INFO - Loaded 5 FAISS indices successfully
+2025-03-11 15:19:55,611 - INFO - Using provided project root: /Users/hetpatel/Projects/course-grading-api
+2025-03-11 15:19:55,611 - INFO - Professor base directory: /Users/hetpatel/Projects/course-grading-api/uploads/prof_sean
+2025-03-11 15:19:55,611 - INFO - Attempting to retrieve text from indices at: /Users/hetpatel/Projects/course-grading-api/uploads/prof_sean/indices/faiss_index.pkl
+2025-03-11 15:19:55,611 - INFO - Loading FAISS indices from /Users/hetpatel/Projects/course-grading-api/uploads/prof_sean/indices/faiss_index.pkl
+2025-03-11 15:19:55,712 - INFO - Loaded 5 FAISS indices successfully
+2025-03-11 15:19:55,723 - INFO - Retrieved 0 unique context chunks
+2025-03-11 15:19:55,723 - INFO - Generating 3 sample rubrics using model: llama3.1:8b...
+2025-03-11 15:19:55,723 - INFO - Generating sample rubric 1 of 3 (Focus primarily on the practical (application) aspects of the question.)
+2025-03-11 15:19:55,723 - INFO - Sending request to local model: llama3.1:8b
+2025-03-11 15:19:55,730 - ERROR - Error calling local model API: HTTPConnectionPool(host='localhost', port=5001): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x11589a980>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2025-03-11 15:19:55,730 - ERROR - Error generating rubric 1: HTTPConnectionPool(host='localhost', port=5001): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x11589a980>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2025-03-11 15:19:55,730 - INFO - Generating sample rubric 2 of 3 (Focus primarily on the theoretical or conceptual understanding of the question.)
+2025-03-11 15:19:55,730 - INFO - Sending request to local model: llama3.1:8b
+2025-03-11 15:19:55,734 - ERROR - Error calling local model API: HTTPConnectionPool(host='localhost', port=5001): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x115898880>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2025-03-11 15:19:55,734 - ERROR - Error generating rubric 2: HTTPConnectionPool(host='localhost', port=5001): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x115898880>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2025-03-11 15:19:55,734 - INFO - Generating sample rubric 3 of 3 (Provide a balanced approach that covers both theoretical understanding and practical application.)
+2025-03-11 15:19:55,734 - INFO - Sending request to local model: llama3.1:8b
+2025-03-11 15:19:55,735 - ERROR - Error calling local model API: HTTPConnectionPool(host='localhost', port=5001): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x115899c60>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2025-03-11 15:19:55,735 - ERROR - Error generating rubric 3: HTTPConnectionPool(host='localhost', port=5001): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x115899c60>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2025-03-11 15:20:22,869 - INFO - Retrieving context for question: "List and briefly explain the four major steps in ...
+2025-03-11 15:20:22,870 - INFO - Using provided project root: /Users/hetpatel/Projects/course-grading-api
+2025-03-11 15:20:22,870 - INFO - Professor base directory: /Users/hetpatel/Projects/course-grading-api/uploads/prof_sean
+2025-03-11 15:20:22,870 - INFO - Attempting to retrieve text from indices at: /Users/hetpatel/Projects/course-grading-api/uploads/prof_sean/indices/faiss_index.pkl
+2025-03-11 15:20:22,870 - INFO - Loading FAISS indices from /Users/hetpatel/Projects/course-grading-api/uploads/prof_sean/indices/faiss_index.pkl
+2025-03-11 15:20:25,058 - INFO - Loading faiss.
+2025-03-11 15:20:25,090 - INFO - Successfully loaded faiss.
+2025-03-11 15:20:25,093 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+2025-03-11 15:20:25,096 - INFO - Loaded 5 FAISS indices successfully
+2025-03-11 15:20:25,317 - INFO - Using provided project root: /Users/hetpatel/Projects/course-grading-api
+2025-03-11 15:20:25,317 - INFO - Professor base directory: /Users/hetpatel/Projects/course-grading-api/uploads/prof_sean
+2025-03-11 15:20:25,318 - INFO - Attempting to retrieve text from indices at: /Users/hetpatel/Projects/course-grading-api/uploads/prof_sean/indices/faiss_index.pkl
+2025-03-11 15:20:25,318 - INFO - Loading FAISS indices from /Users/hetpatel/Projects/course-grading-api/uploads/prof_sean/indices/faiss_index.pkl
+2025-03-11 15:20:25,599 - INFO - Loaded 5 FAISS indices successfully
+2025-03-11 15:20:25,611 - INFO - Using provided project root: /Users/hetpatel/Projects/course-grading-api
+2025-03-11 15:20:25,611 - INFO - Professor base directory: /Users/hetpatel/Projects/course-grading-api/uploads/prof_sean
+2025-03-11 15:20:25,612 - INFO - Attempting to retrieve text from indices at: /Users/hetpatel/Projects/course-grading-api/uploads/prof_sean/indices/faiss_index.pkl
+2025-03-11 15:20:25,612 - INFO - Loading FAISS indices from /Users/hetpatel/Projects/course-grading-api/uploads/prof_sean/indices/faiss_index.pkl
+2025-03-11 15:20:25,720 - INFO - Loaded 5 FAISS indices successfully
+2025-03-11 15:20:25,732 - INFO - Using provided project root: /Users/hetpatel/Projects/course-grading-api
+2025-03-11 15:20:25,732 - INFO - Professor base directory: /Users/hetpatel/Projects/course-grading-api/uploads/prof_sean
+2025-03-11 15:20:25,732 - INFO - Attempting to retrieve text from indices at: /Users/hetpatel/Projects/course-grading-api/uploads/prof_sean/indices/faiss_index.pkl
+2025-03-11 15:20:25,732 - INFO - Loading FAISS indices from /Users/hetpatel/Projects/course-grading-api/uploads/prof_sean/indices/faiss_index.pkl
+2025-03-11 15:20:25,842 - INFO - Loaded 5 FAISS indices successfully
+2025-03-11 15:20:25,854 - INFO - Using provided project root: /Users/hetpatel/Projects/course-grading-api
+2025-03-11 15:20:25,854 - INFO - Professor base directory: /Users/hetpatel/Projects/course-grading-api/uploads/prof_sean
+2025-03-11 15:20:25,854 - INFO - Attempting to retrieve text from indices at: /Users/hetpatel/Projects/course-grading-api/uploads/prof_sean/indices/faiss_index.pkl
+2025-03-11 15:20:25,854 - INFO - Loading FAISS indices from /Users/hetpatel/Projects/course-grading-api/uploads/prof_sean/indices/faiss_index.pkl
+2025-03-11 15:20:25,964 - INFO - Loaded 5 FAISS indices successfully
+2025-03-11 15:20:25,974 - INFO - Retrieved 0 unique context chunks
+2025-03-11 15:20:25,974 - INFO - Generating 3 sample rubrics using model: llama3.1:8b...
+2025-03-11 15:20:25,974 - INFO - Generating sample rubric 1 of 3 (Focus primarily on the practical (application) aspects of the question.)
+2025-03-11 15:20:25,974 - INFO - Sending request to local model: llama3.1:8b
+2025-03-11 15:20:25,979 - ERROR - Error calling local model API: HTTPConnectionPool(host='localhost', port=5001): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x12df14dc0>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2025-03-11 15:20:25,979 - ERROR - Error generating rubric 1: HTTPConnectionPool(host='localhost', port=5001): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x12df14dc0>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2025-03-11 15:20:25,979 - INFO - Generating sample rubric 2 of 3 (Focus primarily on the theoretical or conceptual understanding of the question.)
+2025-03-11 15:20:25,979 - INFO - Sending request to local model: llama3.1:8b
+2025-03-11 15:20:25,981 - ERROR - Error calling local model API: HTTPConnectionPool(host='localhost', port=5001): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x12df17250>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2025-03-11 15:20:25,981 - ERROR - Error generating rubric 2: HTTPConnectionPool(host='localhost', port=5001): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x12df17250>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2025-03-11 15:20:25,981 - INFO - Generating sample rubric 3 of 3 (Provide a balanced approach that covers both theoretical understanding and practical application.)
+2025-03-11 15:20:25,981 - INFO - Sending request to local model: llama3.1:8b
+2025-03-11 15:20:25,987 - ERROR - Error calling local model API: HTTPConnectionPool(host='localhost', port=5001): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x12df14e50>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2025-03-11 15:20:25,987 - ERROR - Error generating rubric 3: HTTPConnectionPool(host='localhost', port=5001): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x12df14e50>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2025-03-11 15:20:49,864 - INFO - Retrieving context for question: "List and briefly explain the four major steps in ...
+2025-03-11 15:20:49,864 - INFO - Using provided project root: /Users/hetpatel/Projects/course-grading-api
+2025-03-11 15:20:49,865 - INFO - Professor base directory: /Users/hetpatel/Projects/course-grading-api/uploads/prof_sean
+2025-03-11 15:20:49,865 - INFO - Attempting to retrieve text from indices at: /Users/hetpatel/Projects/course-grading-api/uploads/prof_sean/indices/faiss_index.pkl
+2025-03-11 15:20:49,865 - INFO - Loading FAISS indices from /Users/hetpatel/Projects/course-grading-api/uploads/prof_sean/indices/faiss_index.pkl
+2025-03-11 15:20:51,836 - INFO - Loading faiss.
+2025-03-11 15:20:51,859 - INFO - Successfully loaded faiss.
+2025-03-11 15:20:51,862 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+2025-03-11 15:20:51,865 - INFO - Loaded 5 FAISS indices successfully
+2025-03-11 15:20:52,037 - INFO - Using provided project root: /Users/hetpatel/Projects/course-grading-api
+2025-03-11 15:20:52,037 - INFO - Professor base directory: /Users/hetpatel/Projects/course-grading-api/uploads/prof_sean
+2025-03-11 15:20:52,037 - INFO - Attempting to retrieve text from indices at: /Users/hetpatel/Projects/course-grading-api/uploads/prof_sean/indices/faiss_index.pkl
+2025-03-11 15:20:52,037 - INFO - Loading FAISS indices from /Users/hetpatel/Projects/course-grading-api/uploads/prof_sean/indices/faiss_index.pkl
+2025-03-11 15:20:52,242 - INFO - Loaded 5 FAISS indices successfully
+2025-03-11 15:20:52,253 - INFO - Using provided project root: /Users/hetpatel/Projects/course-grading-api
+2025-03-11 15:20:52,253 - INFO - Professor base directory: /Users/hetpatel/Projects/course-grading-api/uploads/prof_sean
+2025-03-11 15:20:52,253 - INFO - Attempting to retrieve text from indices at: /Users/hetpatel/Projects/course-grading-api/uploads/prof_sean/indices/faiss_index.pkl
+2025-03-11 15:20:52,253 - INFO - Loading FAISS indices from /Users/hetpatel/Projects/course-grading-api/uploads/prof_sean/indices/faiss_index.pkl
+2025-03-11 15:20:52,369 - INFO - Loaded 5 FAISS indices successfully
+2025-03-11 15:20:52,379 - INFO - Using provided project root: /Users/hetpatel/Projects/course-grading-api
+2025-03-11 15:20:52,379 - INFO - Professor base directory: /Users/hetpatel/Projects/course-grading-api/uploads/prof_sean
+2025-03-11 15:20:52,379 - INFO - Attempting to retrieve text from indices at: /Users/hetpatel/Projects/course-grading-api/uploads/prof_sean/indices/faiss_index.pkl
+2025-03-11 15:20:52,379 - INFO - Loading FAISS indices from /Users/hetpatel/Projects/course-grading-api/uploads/prof_sean/indices/faiss_index.pkl
+2025-03-11 15:20:52,474 - INFO - Loaded 5 FAISS indices successfully
+2025-03-11 15:20:52,484 - INFO - Using provided project root: /Users/hetpatel/Projects/course-grading-api
+2025-03-11 15:20:52,485 - INFO - Professor base directory: /Users/hetpatel/Projects/course-grading-api/uploads/prof_sean
+2025-03-11 15:20:52,485 - INFO - Attempting to retrieve text from indices at: /Users/hetpatel/Projects/course-grading-api/uploads/prof_sean/indices/faiss_index.pkl
+2025-03-11 15:20:52,485 - INFO - Loading FAISS indices from /Users/hetpatel/Projects/course-grading-api/uploads/prof_sean/indices/faiss_index.pkl
+2025-03-11 15:20:52,587 - INFO - Loaded 5 FAISS indices successfully
+2025-03-11 15:20:52,597 - INFO - Retrieved 0 unique context chunks
+2025-03-11 15:20:52,597 - INFO - Generating 3 sample rubrics using model: llama3.1:8b...
+2025-03-11 15:20:52,597 - INFO - Generating sample rubric 1 of 3 (Focus primarily on the practical (application) aspects of the question.)
+2025-03-11 15:20:52,598 - INFO - Sending request to local model: llama3.1:8b
+2025-03-11 15:20:52,601 - ERROR - Error calling local model API: HTTPConnectionPool(host='localhost', port=5001): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x12b2e5480>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2025-03-11 15:20:52,601 - ERROR - Error generating rubric 1: HTTPConnectionPool(host='localhost', port=5001): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x12b2e5480>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2025-03-11 15:20:52,601 - INFO - Generating sample rubric 2 of 3 (Focus primarily on the theoretical or conceptual understanding of the question.)
+2025-03-11 15:20:52,601 - INFO - Sending request to local model: llama3.1:8b
+2025-03-11 15:20:52,603 - ERROR - Error calling local model API: HTTPConnectionPool(host='localhost', port=5001): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x12b2e5b10>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2025-03-11 15:20:52,603 - ERROR - Error generating rubric 2: HTTPConnectionPool(host='localhost', port=5001): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x12b2e5b10>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2025-03-11 15:20:52,603 - INFO - Generating sample rubric 3 of 3 (Provide a balanced approach that covers both theoretical understanding and practical application.)
+2025-03-11 15:20:52,603 - INFO - Sending request to local model: llama3.1:8b
+2025-03-11 15:20:52,604 - ERROR - Error calling local model API: HTTPConnectionPool(host='localhost', port=5001): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x12b2e5e10>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2025-03-11 15:20:52,604 - ERROR - Error generating rubric 3: HTTPConnectionPool(host='localhost', port=5001): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x12b2e5e10>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2025-03-11 15:21:05,708 - INFO - Retrieving context for question: "List and briefly explain the four major steps in ...
+2025-03-11 15:21:05,708 - INFO - Using provided project root: /Users/hetpatel/Projects/course-grading-api
+2025-03-11 15:21:05,708 - INFO - Professor base directory: /Users/hetpatel/Projects/course-grading-api/uploads/prof_sean
+2025-03-11 15:21:05,708 - INFO - Attempting to retrieve text from indices at: /Users/hetpatel/Projects/course-grading-api/uploads/prof_sean/indices/faiss_index.pkl
+2025-03-11 15:21:05,708 - INFO - Loading FAISS indices from /Users/hetpatel/Projects/course-grading-api/uploads/prof_sean/indices/faiss_index.pkl
+2025-03-11 15:21:07,639 - INFO - Loading faiss.
+2025-03-11 15:21:07,662 - INFO - Successfully loaded faiss.
+2025-03-11 15:21:07,665 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+2025-03-11 15:21:07,669 - INFO - Loaded 5 FAISS indices successfully
+2025-03-11 15:21:07,846 - INFO - Using provided project root: /Users/hetpatel/Projects/course-grading-api
+2025-03-11 15:21:07,846 - INFO - Professor base directory: /Users/hetpatel/Projects/course-grading-api/uploads/prof_sean
+2025-03-11 15:21:07,847 - INFO - Attempting to retrieve text from indices at: /Users/hetpatel/Projects/course-grading-api/uploads/prof_sean/indices/faiss_index.pkl
+2025-03-11 15:21:07,847 - INFO - Loading FAISS indices from /Users/hetpatel/Projects/course-grading-api/uploads/prof_sean/indices/faiss_index.pkl
+2025-03-11 15:21:08,045 - INFO - Loaded 5 FAISS indices successfully
+2025-03-11 15:21:08,055 - INFO - Using provided project root: /Users/hetpatel/Projects/course-grading-api
+2025-03-11 15:21:08,055 - INFO - Professor base directory: /Users/hetpatel/Projects/course-grading-api/uploads/prof_sean
+2025-03-11 15:21:08,056 - INFO - Attempting to retrieve text from indices at: /Users/hetpatel/Projects/course-grading-api/uploads/prof_sean/indices/faiss_index.pkl
+2025-03-11 15:21:08,056 - INFO - Loading FAISS indices from /Users/hetpatel/Projects/course-grading-api/uploads/prof_sean/indices/faiss_index.pkl
+2025-03-11 15:21:08,147 - INFO - Loaded 5 FAISS indices successfully
+2025-03-11 15:21:08,158 - INFO - Using provided project root: /Users/hetpatel/Projects/course-grading-api
+2025-03-11 15:21:08,158 - INFO - Professor base directory: /Users/hetpatel/Projects/course-grading-api/uploads/prof_sean
+2025-03-11 15:21:08,158 - INFO - Attempting to retrieve text from indices at: /Users/hetpatel/Projects/course-grading-api/uploads/prof_sean/indices/faiss_index.pkl
+2025-03-11 15:21:08,158 - INFO - Loading FAISS indices from /Users/hetpatel/Projects/course-grading-api/uploads/prof_sean/indices/faiss_index.pkl
+2025-03-11 15:21:08,259 - INFO - Loaded 5 FAISS indices successfully
+2025-03-11 15:21:08,269 - INFO - Using provided project root: /Users/hetpatel/Projects/course-grading-api
+2025-03-11 15:21:08,269 - INFO - Professor base directory: /Users/hetpatel/Projects/course-grading-api/uploads/prof_sean
+2025-03-11 15:21:08,269 - INFO - Attempting to retrieve text from indices at: /Users/hetpatel/Projects/course-grading-api/uploads/prof_sean/indices/faiss_index.pkl
+2025-03-11 15:21:08,269 - INFO - Loading FAISS indices from /Users/hetpatel/Projects/course-grading-api/uploads/prof_sean/indices/faiss_index.pkl
+2025-03-11 15:21:08,367 - INFO - Loaded 5 FAISS indices successfully
+2025-03-11 15:21:08,377 - INFO - Retrieved 0 unique context chunks
+2025-03-11 15:21:08,377 - INFO - Generating 3 sample rubrics using model: llama3.1:8b...
+2025-03-11 15:21:08,377 - INFO - Generating sample rubric 1 of 3 (Focus primarily on the practical (application) aspects of the question.)
+2025-03-11 15:21:08,378 - INFO - Sending request to local model: llama3.1:8b
+2025-03-11 15:21:12,911 - INFO - Successfully generated sample rubric 1
+2025-03-11 15:21:12,911 - INFO - Generating sample rubric 2 of 3 (Focus primarily on the theoretical or conceptual understanding of the question.)
+2025-03-11 15:21:12,911 - INFO - Sending request to local model: llama3.1:8b
+2025-03-11 15:21:20,063 - INFO - Successfully generated sample rubric 2
+2025-03-11 15:21:20,065 - INFO - Generating sample rubric 3 of 3 (Provide a balanced approach that covers both theoretical understanding and practical application.)
+2025-03-11 15:21:20,065 - INFO - Sending request to local model: llama3.1:8b
+2025-03-11 15:21:28,392 - INFO - Successfully generated sample rubric 3
+2025-03-11 16:45:18,039 - INFO - Retrieving context for question: "List and briefly explain the four major steps in ...
+2025-03-11 16:45:18,039 - INFO - Using provided project root: /Users/hetpatel/Projects/course-grading-api
+2025-03-11 16:45:18,039 - INFO - Professor base directory: /Users/hetpatel/Projects/course-grading-api/uploads/prof_sean
+2025-03-11 16:45:18,039 - INFO - Attempting to retrieve text from indices at: /Users/hetpatel/Projects/course-grading-api/uploads/prof_sean/indices/faiss_index.pkl
+2025-03-11 16:45:18,039 - INFO - Loading FAISS indices from /Users/hetpatel/Projects/course-grading-api/uploads/prof_sean/indices/faiss_index.pkl
+2025-03-11 16:45:21,255 - INFO - Loading faiss.
+2025-03-11 16:45:21,294 - INFO - Successfully loaded faiss.
+2025-03-11 16:45:21,298 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+2025-03-11 16:45:21,301 - INFO - Loaded 5 FAISS indices successfully
+2025-03-11 16:45:21,503 - INFO - Using provided project root: /Users/hetpatel/Projects/course-grading-api
+2025-03-11 16:45:21,504 - INFO - Professor base directory: /Users/hetpatel/Projects/course-grading-api/uploads/prof_sean
+2025-03-11 16:45:21,504 - INFO - Attempting to retrieve text from indices at: /Users/hetpatel/Projects/course-grading-api/uploads/prof_sean/indices/faiss_index.pkl
+2025-03-11 16:45:21,504 - INFO - Loading FAISS indices from /Users/hetpatel/Projects/course-grading-api/uploads/prof_sean/indices/faiss_index.pkl
+2025-03-11 16:45:21,706 - INFO - Loaded 5 FAISS indices successfully
+2025-03-11 16:45:21,717 - INFO - Using provided project root: /Users/hetpatel/Projects/course-grading-api
+2025-03-11 16:45:21,717 - INFO - Professor base directory: /Users/hetpatel/Projects/course-grading-api/uploads/prof_sean
+2025-03-11 16:45:21,717 - INFO - Attempting to retrieve text from indices at: /Users/hetpatel/Projects/course-grading-api/uploads/prof_sean/indices/faiss_index.pkl
+2025-03-11 16:45:21,717 - INFO - Loading FAISS indices from /Users/hetpatel/Projects/course-grading-api/uploads/prof_sean/indices/faiss_index.pkl
+2025-03-11 16:45:21,825 - INFO - Loaded 5 FAISS indices successfully
+2025-03-11 16:45:21,836 - INFO - Using provided project root: /Users/hetpatel/Projects/course-grading-api
+2025-03-11 16:45:21,837 - INFO - Professor base directory: /Users/hetpatel/Projects/course-grading-api/uploads/prof_sean
+2025-03-11 16:45:21,837 - INFO - Attempting to retrieve text from indices at: /Users/hetpatel/Projects/course-grading-api/uploads/prof_sean/indices/faiss_index.pkl
+2025-03-11 16:45:21,837 - INFO - Loading FAISS indices from /Users/hetpatel/Projects/course-grading-api/uploads/prof_sean/indices/faiss_index.pkl
+2025-03-11 16:45:21,946 - INFO - Loaded 5 FAISS indices successfully
+2025-03-11 16:45:21,960 - INFO - Using provided project root: /Users/hetpatel/Projects/course-grading-api
+2025-03-11 16:45:21,960 - INFO - Professor base directory: /Users/hetpatel/Projects/course-grading-api/uploads/prof_sean
+2025-03-11 16:45:21,961 - INFO - Attempting to retrieve text from indices at: /Users/hetpatel/Projects/course-grading-api/uploads/prof_sean/indices/faiss_index.pkl
+2025-03-11 16:45:21,961 - INFO - Loading FAISS indices from /Users/hetpatel/Projects/course-grading-api/uploads/prof_sean/indices/faiss_index.pkl
+2025-03-11 16:45:22,071 - INFO - Loaded 5 FAISS indices successfully
+2025-03-11 16:45:22,081 - INFO - Retrieved 0 unique context chunks
+2025-03-11 16:45:22,081 - INFO - Generating 3 sample rubrics using model: llama3.1:8b...
+2025-03-11 16:45:22,081 - INFO - Generating sample rubric 1 of 3 (Focus primarily on the practical (application) aspects of the question.)
+2025-03-11 16:45:22,081 - INFO - Sending request to local model: llama3.1:8b
+2025-03-11 16:45:22,089 - ERROR - Error calling local model API: HTTPConnectionPool(host='localhost', port=5001): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x12b29c220>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2025-03-11 16:45:22,089 - ERROR - Error generating rubric 1: HTTPConnectionPool(host='localhost', port=5001): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x12b29c220>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2025-03-11 16:45:22,089 - INFO - Generating sample rubric 2 of 3 (Focus primarily on the theoretical or conceptual understanding of the question.)
+2025-03-11 16:45:22,089 - INFO - Sending request to local model: llama3.1:8b
+2025-03-11 16:45:22,090 - ERROR - Error calling local model API: HTTPConnectionPool(host='localhost', port=5001): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x12b29f910>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2025-03-11 16:45:22,090 - ERROR - Error generating rubric 2: HTTPConnectionPool(host='localhost', port=5001): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x12b29f910>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2025-03-11 16:45:22,090 - INFO - Generating sample rubric 3 of 3 (Provide a balanced approach that covers both theoretical understanding and practical application.)
+2025-03-11 16:45:22,090 - INFO - Sending request to local model: llama3.1:8b
+2025-03-11 16:45:22,092 - ERROR - Error calling local model API: HTTPConnectionPool(host='localhost', port=5001): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x12b29c340>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2025-03-11 16:45:22,092 - ERROR - Error generating rubric 3: HTTPConnectionPool(host='localhost', port=5001): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x12b29c340>: Failed to establish a new connection: [Errno 61] Connection refused'))

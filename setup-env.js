@@ -21,7 +21,7 @@ try {
 }
 
 // Check if requirements.txt exists
-const requirementsPath = path.join(__dirname, "/python/requirements.txt");
+const requirementsPath = path.join(__dirname, "requirements.txt");
 if (!fs.existsSync(requirementsPath)) {
   console.error(
     "❌ requirements.txt not found. Please create the file with your Python dependencies."

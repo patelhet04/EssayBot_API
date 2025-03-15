@@ -1,0 +1,14 @@
+pandas
+PyPDF2
+langchain
+langchain-huggingface
+langchain-community
+faiss-cpu
+transformers
+requests
+openpyxl
+torch
+pdfplumber
+scipy
+numpy
+python-docx

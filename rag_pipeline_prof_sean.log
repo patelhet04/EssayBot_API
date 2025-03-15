@@ -1,0 +1,151 @@
+2025-03-11 01:26:00,165 - INFO - Initializing RAG pipeline for professor: prof_sean
+2025-03-11 01:26:00,166 - INFO - Processing path: /Users/hetpatel/Projects/course-grading-api/uploads/prof_sean/materials/prof_sean_MKTG 2201 Study Textbook.pdf
+2025-03-11 01:26:00,166 - INFO - Created directory: /Users/hetpatel/Projects/course-grading-api/uploads/uploads/prof_sean
+2025-03-11 01:26:00,166 - INFO - Created directory: /Users/hetpatel/Projects/course-grading-api/uploads/uploads/prof_sean/materials
+2025-03-11 01:26:00,166 - INFO - Created directory: /Users/hetpatel/Projects/course-grading-api/uploads/uploads/prof_sean/indices
+2025-03-11 01:26:00,166 - INFO - FAISS indices path: /Users/hetpatel/Projects/course-grading-api/uploads/uploads/prof_sean/indices/faiss_index.pkl
+2025-03-11 01:26:00,166 - INFO - No existing FAISS indices found at /Users/hetpatel/Projects/course-grading-api/uploads/uploads/prof_sean/indices/faiss_index.pkl, creating new ones
+2025-03-11 01:26:00,166 - INFO - Loading course material from /Users/hetpatel/Projects/course-grading-api/uploads/prof_sean/materials/prof_sean_MKTG 2201 Study Textbook.pdf
+2025-03-11 01:26:00,166 - INFO - Extracting text from PDF: /Users/hetpatel/Projects/course-grading-api/uploads/prof_sean/materials/prof_sean_MKTG 2201 Study Textbook.pdf...
+2025-03-11 01:26:00,242 - INFO - Course material extracted successfully. Total length: 14793 characters
+2025-03-11 01:26:02,874 - INFO - Use pytorch device_name: mps
+2025-03-11 01:26:02,874 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-03-11 01:26:06,366 - INFO - Use pytorch device_name: mps
+2025-03-11 01:26:06,367 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-03-11 01:26:08,076 - INFO - Extracted knowledge successfully categorized. Categories: Market Segmentation, Targeting, Differentiation & Positioning, Marketing Mix (4Ps), Marketing Strategy & Planning
+2025-03-11 01:26:08,076 - INFO - Total chunks processed: 26
+2025-03-11 01:26:08,076 - INFO -   - Market Segmentation: 4 chunks
+2025-03-11 01:26:08,076 - INFO -   - Targeting: 10 chunks
+2025-03-11 01:26:08,076 - INFO -   - Differentiation & Positioning: 1 chunks
+2025-03-11 01:26:08,076 - INFO -   - Marketing Mix (4Ps): 7 chunks
+2025-03-11 01:26:08,076 - INFO -   - Marketing Strategy & Planning: 4 chunks
+2025-03-11 01:26:08,076 - INFO - Use pytorch device_name: mps
+2025-03-11 01:26:08,076 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-03-11 01:26:09,498 - INFO - Creating FAISS index for category: Market Segmentation
+2025-03-11 01:26:09,617 - INFO - Loading faiss.
+2025-03-11 01:26:09,639 - INFO - Successfully loaded faiss.
+2025-03-11 01:26:09,642 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+2025-03-11 01:26:09,644 - INFO - Creating FAISS index for category: Targeting
+2025-03-11 01:26:09,744 - INFO - Creating FAISS index for category: Differentiation & Positioning
+2025-03-11 01:26:09,754 - INFO - Creating FAISS index for category: Marketing Mix (4Ps)
+2025-03-11 01:26:09,838 - INFO - Creating FAISS index for category: Marketing Strategy & Planning
+2025-03-11 01:26:09,933 - INFO - Saving FAISS indices to /Users/hetpatel/Projects/course-grading-api/uploads/uploads/prof_sean/indices/faiss_index.pkl
+2025-03-11 01:26:10,033 - INFO - FAISS vector stores created and saved successfully.
+2025-03-11 01:42:41,888 - INFO - Initializing RAG pipeline for professor: prof_sean
+2025-03-11 01:42:41,888 - INFO - Processing path: /Users/hetpatel/Projects/course-grading-api/uploads/prof_sean/materials/prof_sean_MKTG 2201 Study Textbook.pdf
+2025-03-11 01:42:41,888 - ERROR - Error initializing RAG pipeline: get_indices_path() takes 1 positional argument but 2 were given
+2025-03-11 01:44:20,621 - INFO - Initializing RAG pipeline for professor: prof_sean
+2025-03-11 01:44:20,621 - INFO - Processing path: /Users/hetpatel/Projects/course-grading-api/uploads/prof_sean/materials/prof_sean_MKTG 2201 Study Textbook.pdf
+2025-03-11 01:44:20,621 - INFO - Using calculated project root: /Users/hetpatel/Projects/course-grading-api/uploads
+2025-03-11 01:44:20,621 - INFO - Professor base directory: /Users/hetpatel/Projects/course-grading-api/uploads/uploads/prof_sean
+2025-03-11 01:44:20,621 - INFO - Created directory: /Users/hetpatel/Projects/course-grading-api/uploads/uploads/prof_sean
+2025-03-11 01:44:20,622 - INFO - Created directory: /Users/hetpatel/Projects/course-grading-api/uploads/uploads/prof_sean/materials
+2025-03-11 01:44:20,622 - INFO - Created directory: /Users/hetpatel/Projects/course-grading-api/uploads/uploads/prof_sean/indices
+2025-03-11 01:44:20,622 - INFO - FAISS indices path: /Users/hetpatel/Projects/course-grading-api/uploads/uploads/prof_sean/indices/faiss_index.pkl
+2025-03-11 01:44:20,622 - INFO - No existing FAISS indices found at /Users/hetpatel/Projects/course-grading-api/uploads/uploads/prof_sean/indices/faiss_index.pkl, creating new ones
+2025-03-11 01:44:20,622 - INFO - Loading course material from /Users/hetpatel/Projects/course-grading-api/uploads/prof_sean/materials/prof_sean_MKTG 2201 Study Textbook.pdf
+2025-03-11 01:44:20,622 - INFO - Extracting text from PDF: /Users/hetpatel/Projects/course-grading-api/uploads/prof_sean/materials/prof_sean_MKTG 2201 Study Textbook.pdf...
+2025-03-11 01:44:20,698 - INFO - Course material extracted successfully. Total length: 14793 characters
+2025-03-11 01:44:23,395 - INFO - Use pytorch device_name: mps
+2025-03-11 01:44:23,396 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-03-11 01:44:25,502 - INFO - Use pytorch device_name: mps
+2025-03-11 01:44:25,502 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-03-11 01:44:27,292 - INFO - Extracted knowledge successfully categorized. Categories: Market Segmentation, Targeting, Differentiation & Positioning, Marketing Mix (4Ps), Marketing Strategy & Planning
+2025-03-11 01:44:27,293 - INFO - Total chunks processed: 26
+2025-03-11 01:44:27,293 - INFO -   - Market Segmentation: 4 chunks
+2025-03-11 01:44:27,293 - INFO -   - Targeting: 10 chunks
+2025-03-11 01:44:27,293 - INFO -   - Differentiation & Positioning: 1 chunks
+2025-03-11 01:44:27,293 - INFO -   - Marketing Mix (4Ps): 7 chunks
+2025-03-11 01:44:27,293 - INFO -   - Marketing Strategy & Planning: 4 chunks
+2025-03-11 01:44:27,293 - INFO - Use pytorch device_name: mps
+2025-03-11 01:44:27,293 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-03-11 01:44:30,965 - INFO - Creating FAISS index for category: Market Segmentation
+2025-03-11 01:44:31,073 - INFO - Loading faiss.
+2025-03-11 01:44:31,095 - INFO - Successfully loaded faiss.
+2025-03-11 01:44:31,098 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+2025-03-11 01:44:31,100 - INFO - Creating FAISS index for category: Targeting
+2025-03-11 01:44:31,191 - INFO - Creating FAISS index for category: Differentiation & Positioning
+2025-03-11 01:44:31,201 - INFO - Creating FAISS index for category: Marketing Mix (4Ps)
+2025-03-11 01:44:31,284 - INFO - Creating FAISS index for category: Marketing Strategy & Planning
+2025-03-11 01:44:31,353 - INFO - Saving FAISS indices to /Users/hetpatel/Projects/course-grading-api/uploads/uploads/prof_sean/indices/faiss_index.pkl
+2025-03-11 01:44:31,447 - INFO - FAISS vector stores created and saved successfully.
+2025-03-11 01:47:10,792 - INFO - Initializing RAG pipeline for professor: prof_sean
+2025-03-11 01:47:10,792 - INFO - Processing path: /Users/hetpatel/Projects/course-grading-api/uploads/prof_sean/materials/prof_sean_MKTG 2201 Study Textbook.pdf
+2025-03-11 01:47:10,793 - INFO - Using calculated project root: /Users/hetpatel/Projects/course-grading-api/uploads
+2025-03-11 01:47:10,793 - INFO - Professor base directory: /Users/hetpatel/Projects/course-grading-api/uploads/uploads/prof_sean
+2025-03-11 01:47:10,793 - INFO - Created directory: /Users/hetpatel/Projects/course-grading-api/uploads/uploads/prof_sean
+2025-03-11 01:47:10,793 - INFO - Created directory: /Users/hetpatel/Projects/course-grading-api/uploads/uploads/prof_sean/materials
+2025-03-11 01:47:10,793 - INFO - Created directory: /Users/hetpatel/Projects/course-grading-api/uploads/uploads/prof_sean/indices
+2025-03-11 01:47:10,793 - INFO - FAISS indices path: /Users/hetpatel/Projects/course-grading-api/uploads/uploads/prof_sean/indices/faiss_index.pkl
+2025-03-11 01:47:10,793 - INFO - No existing FAISS indices found at /Users/hetpatel/Projects/course-grading-api/uploads/uploads/prof_sean/indices/faiss_index.pkl, creating new ones
+2025-03-11 01:47:10,793 - INFO - Loading course material from /Users/hetpatel/Projects/course-grading-api/uploads/prof_sean/materials/prof_sean_MKTG 2201 Study Textbook.pdf
+2025-03-11 01:47:10,793 - INFO - Extracting text from PDF: /Users/hetpatel/Projects/course-grading-api/uploads/prof_sean/materials/prof_sean_MKTG 2201 Study Textbook.pdf...
+2025-03-11 01:47:10,867 - INFO - Course material extracted successfully. Total length: 14793 characters
+2025-03-11 01:47:13,542 - INFO - Use pytorch device_name: mps
+2025-03-11 01:47:13,542 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-03-11 01:47:15,065 - INFO - Use pytorch device_name: mps
+2025-03-11 01:47:15,065 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-03-11 01:47:24,266 - INFO - Extracted knowledge successfully categorized. Categories: Market Segmentation, Targeting, Differentiation & Positioning, Marketing Mix (4Ps), Marketing Strategy & Planning
+2025-03-11 01:47:24,266 - INFO - Total chunks processed: 26
+2025-03-11 01:47:24,266 - INFO -   - Market Segmentation: 4 chunks
+2025-03-11 01:47:24,266 - INFO -   - Targeting: 10 chunks
+2025-03-11 01:47:24,266 - INFO -   - Differentiation & Positioning: 1 chunks
+2025-03-11 01:47:24,266 - INFO -   - Marketing Mix (4Ps): 7 chunks
+2025-03-11 01:47:24,266 - INFO -   - Marketing Strategy & Planning: 4 chunks
+2025-03-11 01:47:24,267 - INFO - Use pytorch device_name: mps
+2025-03-11 01:47:24,267 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-03-11 01:47:26,684 - INFO - Creating FAISS index for category: Market Segmentation
+2025-03-11 01:47:26,801 - INFO - Loading faiss.
+2025-03-11 01:47:26,822 - INFO - Successfully loaded faiss.
+2025-03-11 01:47:26,826 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+2025-03-11 01:47:26,828 - INFO - Creating FAISS index for category: Targeting
+2025-03-11 01:47:26,930 - INFO - Creating FAISS index for category: Differentiation & Positioning
+2025-03-11 01:47:26,942 - INFO - Creating FAISS index for category: Marketing Mix (4Ps)
+2025-03-11 01:47:27,033 - INFO - Creating FAISS index for category: Marketing Strategy & Planning
+2025-03-11 01:47:27,111 - INFO - Saving FAISS indices to /Users/hetpatel/Projects/course-grading-api/uploads/uploads/prof_sean/indices/faiss_index.pkl
+2025-03-11 01:47:27,221 - INFO - FAISS vector stores created and saved successfully.
+2025-03-11 01:50:59,290 - INFO - Initializing RAG pipeline for professor: prof_sean
+2025-03-11 01:50:59,290 - ERROR - Project root not provided
+2025-03-11 01:50:59,290 - ERROR - Error initializing RAG pipeline: Project root not provided
+2025-03-11 01:52:33,425 - INFO - Initializing RAG pipeline for professor: prof_sean
+2025-03-11 01:52:33,426 - ERROR - Project root not provided
+2025-03-11 01:52:33,426 - ERROR - Error initializing RAG pipeline: Project root not provided
+2025-03-11 01:55:18,393 - INFO - Initializing RAG pipeline for professor: prof_sean
+2025-03-11 01:55:18,394 - ERROR - Project root not provided
+2025-03-11 01:55:18,394 - ERROR - Error initializing RAG pipeline: Project root not provided
+2025-03-11 02:00:11,496 - INFO - Initializing RAG pipeline for professor: prof_sean
+2025-03-11 02:00:11,496 - ERROR - Project root not provided
+2025-03-11 02:00:11,496 - ERROR - Error initializing RAG pipeline: Project root not provided
+2025-03-11 02:02:34,741 - INFO - Initializing RAG pipeline for professor: prof_sean
+2025-03-11 02:02:34,742 - INFO - Processing path: /Users/hetpatel/Projects/course-grading-api/uploads/prof_sean/materials/prof_sean_MKTG 2201 Study Textbook.pdf
+2025-03-11 02:02:34,742 - INFO - Using provided project root: /Users/hetpatel/Projects/course-grading-api
+2025-03-11 02:02:34,742 - INFO - Professor base directory: /Users/hetpatel/Projects/course-grading-api/uploads/prof_sean
+2025-03-11 02:02:34,742 - INFO - Created directory: /Users/hetpatel/Projects/course-grading-api/uploads/prof_sean/indices
+2025-03-11 02:02:34,742 - INFO - FAISS indices path: /Users/hetpatel/Projects/course-grading-api/uploads/prof_sean/indices/faiss_index.pkl
+2025-03-11 02:02:34,742 - INFO - No existing FAISS indices found at /Users/hetpatel/Projects/course-grading-api/uploads/prof_sean/indices/faiss_index.pkl, creating new ones
+2025-03-11 02:02:34,742 - INFO - Loading course material from /Users/hetpatel/Projects/course-grading-api/uploads/prof_sean/materials/prof_sean_MKTG 2201 Study Textbook.pdf
+2025-03-11 02:02:34,742 - INFO - Extracting text from PDF: /Users/hetpatel/Projects/course-grading-api/uploads/prof_sean/materials/prof_sean_MKTG 2201 Study Textbook.pdf...
+2025-03-11 02:02:34,815 - INFO - Course material extracted successfully. Total length: 14793 characters
+2025-03-11 02:02:37,456 - INFO - Use pytorch device_name: mps
+2025-03-11 02:02:37,456 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-03-11 02:02:39,042 - INFO - Use pytorch device_name: mps
+2025-03-11 02:02:39,042 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-03-11 02:02:42,487 - INFO - Extracted knowledge successfully categorized. Categories: Market Segmentation, Targeting, Differentiation & Positioning, Marketing Mix (4Ps), Marketing Strategy & Planning
+2025-03-11 02:02:42,488 - INFO - Total chunks processed: 26
+2025-03-11 02:02:42,488 - INFO -   - Market Segmentation: 4 chunks
+2025-03-11 02:02:42,488 - INFO -   - Targeting: 10 chunks
+2025-03-11 02:02:42,488 - INFO -   - Differentiation & Positioning: 1 chunks
+2025-03-11 02:02:42,488 - INFO -   - Marketing Mix (4Ps): 7 chunks
+2025-03-11 02:02:42,488 - INFO -   - Marketing Strategy & Planning: 4 chunks
+2025-03-11 02:02:42,488 - INFO - Use pytorch device_name: mps
+2025-03-11 02:02:42,488 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-03-11 02:02:43,537 - INFO - Creating FAISS index for category: Market Segmentation
+2025-03-11 02:02:43,660 - INFO - Loading faiss.
+2025-03-11 02:02:43,682 - INFO - Successfully loaded faiss.
+2025-03-11 02:02:43,685 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+2025-03-11 02:02:43,686 - INFO - Creating FAISS index for category: Targeting
+2025-03-11 02:02:43,778 - INFO - Creating FAISS index for category: Differentiation & Positioning
+2025-03-11 02:02:43,789 - INFO - Creating FAISS index for category: Marketing Mix (4Ps)
+2025-03-11 02:02:43,868 - INFO - Creating FAISS index for category: Marketing Strategy & Planning
+2025-03-11 02:02:43,938 - INFO - Saving FAISS indices to /Users/hetpatel/Projects/course-grading-api/uploads/prof_sean/indices/faiss_index.pkl
+2025-03-11 02:02:44,045 - INFO - FAISS vector stores created and saved successfully.

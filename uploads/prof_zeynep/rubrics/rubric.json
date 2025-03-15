@@ -1,0 +1,37 @@
+{
+  "criteria": [
+    {
+      "name": "Application of Team Design Variables",
+      "description": "Assess how effectively the student applies key team design variables (roles, norms, goals, charters) and connects them to the scenario.",
+      "weight": 35,
+      "scoringLevels": {
+        "full": "Effectively applies multiple team design variables with clear connections to the scenario.",
+        "partial": "Applies some team design variables but connections to the scenario are limited.",
+        "minimal": "Minimal or incorrect application of team design variables."
+      },
+      "subCriteria": []
+    },
+    {
+      "name": "Identification and Prevention of Social Loafing",
+      "description": "Evaluate the identification of social loafing, its causes, and actionable solutions based on course material.",
+      "weight": 35,
+      "scoringLevels": {
+        "full": "Clearly identifies social loafing, explains relevant causes, and proposes effective solutions based on course concepts.",
+        "partial": "Partially identifies social loafing with some relevant solutions but lacks depth or connection to course material.",
+        "minimal": "Inadequate identification of social loafing or solutions that aren't based on course material."
+      },
+      "subCriteria": []
+    },
+    {
+      "name": "Organization and Clarity of Argument",
+      "description": "Evaluate the logical flow, clarity, and structure of the response, ensuring arguments are well-supported and tied to course material.",
+      "weight": 30,
+      "scoringLevels": {
+        "full": "Well-organized response with clear logical flow and arguments well-supported by course material.",
+        "partial": "Somewhat organized with basic logical flow but some gaps in clarity or support from course material.",
+        "minimal": "Poorly organized response lacking logical flow or connections to course material."
+      },
+      "subCriteria": []
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "criteria": [
+    {
+      "name": "Example or Type",
+      "description": "Correctly identifies a software example that aligns with the given category and logically fits the scenario.",
+      "weight": 1,
+      "scoringLevels": {
+        "full": "Example is fully correct and relevant to the category.",
+        "partial": "Example is somewhat relevant but lacks specificity.",
+        "minimal": "Example is mostly incorrect but has a minor relation or is completely incorrect/blank."
+      },
+      "subCriteria": [
+        {
+          "name": "Accuracy",
+          "description": "Correctly identifies a software example that aligns with the given category.",
+          "weight": 0.5
+        },
+        {
+          "name": "Relevance",
+          "description": "The example logically fits the scenario and aligns with industry norms.",
+          "weight": 0.5
+        }
+      ]
+    },
+    {
+      "name": "Acquisition/Sourcing Approach",
+      "description": "Correctly selects 'Buy,' 'Rent,' or 'Build' based on industry norms and justifies why the approach makes sense for the software type.",
+      "weight": 1,
+      "scoringLevels": {
+        "full": "Correctly identifies and justifies the acquisition method.",
+        "partial": "Acquisition method is correct but lacks proper justification.",
+        "minimal": "Acquisition method is incorrect or missing."
+      },
+      "subCriteria": [
+        {
+          "name": "Accuracy",
+          "description": "Correctly selects 'Buy,' 'Rent,' or 'Build' based on industry norms.",
+          "weight": 0.5
+        },
+        {
+          "name": "Relevance",
+          "description": "Justifies why the approach makes sense for the software type.",
+          "weight": 0.5
+        }
+      ]
+    },
+    {
+      "name": "First Net Benefit",
+      "description": "Identifies one way to increase net benefits that relates to one of the rubric categories (Usability, Usefulness, Social Influence) and is specific to the software type.",
+      "weight": 1,
+      "scoringLevels": {
+        "full": "Benefit is fully correct in both accuracy and relevance.",
+        "partial": "Benefit is somewhat relevant but not fully specific.",
+        "minimal": "Benefit is vague, loosely connected, or missing."
+      },
+      "subCriteria": [
+        {
+          "name": "Accuracy",
+          "description": "The benefit relates to one of the rubric categories (Usability, Usefulness, Social Influence).",
+          "weight": 0.5
+        },
+        {
+          "name": "Relevance",
+          "description": "The benefit is specific to the software type.",
+          "weight": 0.5
+        }
+      ]
+    },
+    {
+      "name": "Second Net Benefit",
+      "description": "Identifies a second way to increase net benefits from a different category than the first benefit.",
+      "weight": 1,
+      "scoringLevels": {
+        "full": "Benefit is fully correct in both accuracy and relevance and from a different category than first benefit.",
+        "partial": "Benefit is somewhat relevant but not fully specific or from the same category as first benefit.",
+        "minimal": "Benefit is vague, loosely connected, or missing."
+      },
+      "subCriteria": [
+        {
+          "name": "Accuracy",
+          "description": "The benefit relates to one of the rubric categories (Usability, Usefulness, Social Influence) different from the first benefit.",
+          "weight": 0.5
+        },
+        {
+          "name": "Relevance",
+          "description": "The benefit is specific to the software type.",
+          "weight": 0.5
+        }
+      ]
+    }
+  ]
+}

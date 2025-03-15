@@ -1,0 +1,24 @@
+2025-03-14 01:37:29,752 - INFO - Starting main function with file: /Users/hetpatel/Projects/course-grading-api/uploads/prof_sean/essays/essays-1741930645082-955517242.xlsx
+2025-03-14 01:37:29,823 - INFO - Successfully loaded file with 8 responses
+2025-03-14 01:37:29,824 - INFO - Grading response 1/8
+2025-03-14 01:37:29,824 - INFO - Grading response
+2025-03-14 01:37:29,824 - INFO - Augmenting essay with RAG context
+2025-03-14 01:37:29,824 - INFO - Attempting to retrieve text from indices at: faiss_indices.pkl
+2025-03-14 01:37:29,824 - INFO - Loading FAISS indices from faiss_indices.pkl
+2025-03-14 01:37:29,824 - WARNING - FAISS indices file not found: faiss_indices.pkl
+2025-03-14 01:37:29,824 - WARNING - Category 'Differentiation & Positioning' not found in FAISS indices. Returning empty context.
+2025-03-14 01:37:29,824 - INFO - Attempting to retrieve text from indices at: faiss_indices.pkl
+2025-03-14 01:37:29,824 - INFO - Loading FAISS indices from faiss_indices.pkl
+2025-03-14 01:37:29,824 - WARNING - FAISS indices file not found: faiss_indices.pkl
+2025-03-14 01:37:29,824 - WARNING - Category 'Targeting' not found in FAISS indices. Returning empty context.
+2025-03-14 01:37:29,824 - INFO - Attempting to retrieve text from indices at: faiss_indices.pkl
+2025-03-14 01:37:29,824 - INFO - Loading FAISS indices from faiss_indices.pkl
+2025-03-14 01:37:29,824 - WARNING - FAISS indices file not found: faiss_indices.pkl
+2025-03-14 01:37:29,824 - WARNING - Category 'Market Segmentation' not found in FAISS indices. Returning empty context.
+2025-03-14 01:37:29,824 - INFO - Attempting to retrieve text from indices at: faiss_indices.pkl
+2025-03-14 01:37:29,824 - INFO - Loading FAISS indices from faiss_indices.pkl
+2025-03-14 01:37:29,825 - WARNING - FAISS indices file not found: faiss_indices.pkl
+2025-03-14 01:37:29,825 - WARNING - Category 'Marketing Mix (4Ps)' not found in FAISS indices. Returning empty context.
+2025-03-14 01:37:29,825 - INFO - RAG context retrieved for categories: ['Differentiation & Positioning', 'Targeting', 'Market Segmentation', 'Marketing Mix (4Ps)']
+2025-03-14 01:37:29,825 - INFO - Running grading agent
+2025-03-14 01:37:29,825 - ERROR - Error processing file: Replacement index 0 out of range for positional args tuple

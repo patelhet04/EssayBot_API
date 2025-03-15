@@ -4,14 +4,23 @@ const cors = require("cors");
 const path = require("path");
 const logger = require("./utils/logger");
 const { spawn } = require("child_process");
+const mongoose = require("mongoose");
+const bodyParser = require("body-parser");
 // Import route modules
 const courseRoutes = require("./routes/course.routes");
 const rubricRoutes = require("./routes/rubric.routes");
 const gradingRoutes = require("./routes/grading.routes");
+const authRoutes = require("./routes/auth.routes");
+const questionRoutes = require("./routes/questions.routes");
+require("dotenv").config();
+const config = require("./utils/config");
 
 // Initialize express app
 const app = express();
 const PORT = process.env.PORT || 3001;
+
+// app.use(bodyParser.json());
+// app.use(bodyParser.urlencoded({ extended: true }));
 
 // Middleware
 app.use(cors());
@@ -26,10 +35,22 @@ app.use((req, res, next) => {
   next();
 });
 
+mongoose
+  .connect(config.mongodb.uri)
+  .then(() => {
+    console.log("Connected to MongoDB");
+  })
+  .catch((err) => {
+    console.error("MongoDB connection error:", err);
+    process.exit(1);
+  });
+
 // Register routes
-app.use("/api", courseRoutes);
-app.use("/api", rubricRoutes);
-app.use("/api", gradingRoutes);
+app.use("/api/auth", authRoutes);
+app.use("/api/courses", courseRoutes);
+app.use("/api/rubrics", rubricRoutes);
+app.use("/api/grading", gradingRoutes);
+app.use("/api/questions", questionRoutes);
 
 app.get("/list-models", async (req, res) => {
   try {

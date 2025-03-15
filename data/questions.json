@@ -1,0 +1,27 @@
+{
+  "prof_sean": {
+    "text": "List and briefly explain the four major steps in designing a customer-driven marketing strategy in the order that they should be performed. Explain what a company is seeking to accomplish in the first two steps as compared to the last two steps.",
+    "type": "text"
+  },
+
+  "prof_martin": {
+    "text": "A large service organization like Capital One utilizes a variety of software-related products and services. For each of the following categories of software, provide an example of the type of product that Capital One would be likely to use; state likely software acquisition/sourcing (Buy, Rent, or Build) approach; and two ways they can increase the likelihood of achieving Net Benefits. [3 points]",
+    "type": "table",
+    "columns": [
+      "Software Category",
+      "Example or Type",
+      "Acquisition/sourcing approach (Buy/Rent/Build)",
+      "Two ways to increase the likelihood of gaining net benefits for the Software investment?"
+    ],
+    "rows": [
+      "System Software used in corporate data center to enable data integration",
+      "General Purpose software used firm wide",
+      "Cloud-based \"as-is\" application software used in HR, marketing, and accounting units"
+    ]
+  },
+
+  "prof_zeynep": {
+    "text": "You are enrolled in an undergraduate business course with a group project. Not wanting to be scrambling at the last moment, you quickly sign up with a group and create a group chat for the whole team.\n\nA couple of weeks before the project is due, assignments are sorted among the group members. You decide that, because your mark in this course is very important to your overall GPA, you will do the final edit of the whole assignment and fine-tune it for any mistakes. To give yourself ample time to do this you explain to the group that you want everyone's part five days before the submission date.\n\nDespite your request, no one sends you their part of the work on time. You message the chat to see what is going on. Some people don't reply; others say they have been busy but are finishing up; and some say they haven't started. You start to get worried but understand that 'life happens,' so you suggest they send it to you three days before the deadline.\n\nT-minus three days and no one has completed their part of the project. You again message and receive the same response as before. You are now very worried, and by the next day you still have received only two submissions, which you edit.\n\nThe next day you finish your portion at 9 p.m., hoping that the rest of the group members have sent their parts, considering the submission deadline is tomorrow. Realizing you have not received any more submissions, you message the chat to see what is going on but get no response. Knowing that your marks are on the line you start doing the project yourself. You stay up all night to single-handedly finish what was supposed to be done by four people. The next morning you go to school and hand in the completed paper.\n\nPlease explain what you did wrong in this scenario. What should you have done differently (given all you have learned about team design and performance). Please be clear and intentional about applying course concepts.",
+    "type": "text"
+  }
+}
