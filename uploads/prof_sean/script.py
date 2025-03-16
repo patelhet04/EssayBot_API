@@ -59,62 +59,39 @@ def send_post_request(prompt, temperature=DEFAULT_TEMPERATURE, top_p=DEFAULT_TOP
 
 
 def clean_response_text(text):
-    """
-    Cleans and pre-processes raw response text from the model to ensure valid JSON formatting.
-    """
-    if not isinstance(text, str):  # Ensure the input is a string
+    """Ensures valid JSON formatting for responses."""
+    if not isinstance(text, str):
         logger.error("Received non-string input for response text.")
         return '{"score": 0, "feedback": "Invalid response format detected."}'
 
     cleaned = text.strip()
-
-    # Handle function-based responses (if JSON is wrapped in a function structure)
-    if "parameters" in cleaned:
-        logger.warning(
-            "Detected function response structure, extracting relevant text.")
-        match = re.search(r'"(?:essay|text)":\s*"([^"]+)"', cleaned)
-        if match:
-            cleaned = match.group(1)
-
-    # Ensure it's a valid JSON object
     if cleaned.startswith("{") and cleaned.endswith("}"):
         try:
-            json_obj = json.loads(cleaned)  # Parse JSON
+            json_obj = json.loads(cleaned)
             if isinstance(json_obj, dict) and "score" in json_obj and "feedback" in json_obj:
-                return json.dumps(json_obj)  # Return valid JSON
+                return json.dumps(json_obj)
         except json.JSONDecodeError:
-            pass  # Continue processing if JSON parsing fails
+            pass
 
-    # Attempt to fix double-encoded JSON strings
     try:
-        # Try to decode one layer of JSON encoding
         cleaned = json.loads(cleaned)
-        if isinstance(cleaned, str):  # If still a string, attempt another decoding pass
+        if isinstance(cleaned, str):
             cleaned = json.loads(cleaned)
     except json.JSONDecodeError:
-        pass  # Continue processing if JSON decoding fails
+        pass
 
-    # **Ensure cleaned is a string before applying regex**
     if not isinstance(cleaned, str):
-        # Convert back to a string if it's a dictionary
         cleaned = json.dumps(cleaned)
 
-    # Fix unescaped double quotes inside JSON fields
-    # Escape unescaped double quotes
     cleaned = re.sub(r'(?<!\\)"', '\\"', cleaned)
-
-    # Remove trailing commas inside JSON objects
     cleaned = re.sub(r',\s*([\]}])', r'\1', cleaned)
 
-    # Ensure final JSON is valid
     try:
-        json_obj = json.loads(cleaned)  # Try loading as JSON
-        return json.dumps(json_obj)  # Return properly formatted JSON string
+        json_obj = json.loads(cleaned)
+        return json.dumps(json_obj)
     except json.JSONDecodeError as e:
         logger.error(f"JSON decode error: {e}. Raw text: {cleaned}")
         return '{"score": 0, "feedback": "Error parsing response."}'
-
-# Function to run LLM agent with retry mechanism
 
 
 def run_agent(prompt_template, essay, rag_context, model="llama3.1:latest"):
@@ -157,58 +134,27 @@ def run_agent(prompt_template, essay, rag_context, model="llama3.1:latest"):
 # Function to augment essay with RAG-based retrieval
 
 
-def augment_with_rag(essay, categories):
-    """Retrieve RAG context for multiple categories."""
+def augment_with_rag(essay):
+    """Retrieve relevant text directly from FAISS without predefined categories."""
     logger.info("Augmenting essay with RAG context")
 
-    relevant_docs = []
-
-    # Retrieve relevant text for each identified category
-    for category in categories:
-        category_docs = retrieve_relevant_text(essay, category)
-        relevant_docs.extend(category_docs)
-
-    # Remove duplicates and join
-    relevant_docs = list(set(relevant_docs))
+    relevant_docs = retrieve_relevant_text(essay)  # Direct query to FAISS
 
     if relevant_docs:
         rag_context = "\n".join(relevant_docs)
     else:
         rag_context = "No relevant context found."
 
-    logger.info(f"RAG context retrieved for categories: {categories}")
+    logger.info("RAG context retrieved successfully.")
     return rag_context
-
-
-def determine_categories(response):
-    """Determine multiple relevant categories based on student response."""
-    categories = set()
-
-    if "segmentation" in response.lower():
-        categories.add("Market Segmentation")
-    if "targeting" in response.lower():
-        categories.add("Targeting")
-    if "differentiation" in response.lower() or "positioning" in response.lower():
-        categories.add("Differentiation & Positioning")
-    if "pricing" in response.lower() or "product" in response.lower():
-        categories.add("Marketing Mix (4Ps)")
-
-    # Default to "Marketing Strategy & Planning" if no specific category is found
-    if not categories:
-        categories.add("Marketing Strategy & Planning")
-
-    return list(categories)  # Convert to list before returning
 
 
 # Define grading function
 def grade_response(response, model="llama3.1:latest"):
     logger.info("Grading response")
 
-    # Determine category dynamically
-    category = determine_categories(response)
-
     # ✅ Get relevant context using RAG
-    rag_context = augment_with_rag(response, category)
+    rag_context = augment_with_rag(response)
 
     default_feedback = {"score": 0, "feedback": "No response generated."}
 
